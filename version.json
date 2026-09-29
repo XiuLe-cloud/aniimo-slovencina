@@ -1,0 +1,11 @@
+{
+  "translation_version": "0.02",
+  "game_build": "3616231",
+  "package_url": "https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/v0.02/Aniimo-Slovencina-0.02.zip",
+  "sha256": "122dd421f9cc5b45148806e21ac3d22d372fd4a067daf9fa6f6e458c7bf8debc",
+  "changelog": [
+    "Opravené prevzatie odmien a list o doručení vajca",
+    "Opravené vykopávanie vajec, šprint a škrupinový čln",
+    "Opravené denné truhlice, energia Primegy a hromadná správa"
+  ]
+}
