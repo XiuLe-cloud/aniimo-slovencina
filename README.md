@@ -1,7 +1,7 @@
 # ANIIMO Slovenčina od Xiu_Le
 
-Neoficiálny slovenský preklad. Aktuálna testovacia verzia prekladu: **0.02**.
-Podporovaná zostava hry: **3616231**. Verzia inštalátora: **1.1**.
+Neoficiálny slovenský preklad. Aktuálna testovacia verzia prekladu: **0.03**.
+Podporovaná zostava hry: **3629693**. Verzia inštalátora: **1.2**.
 
 ## Bezplatné používanie
 
@@ -17,7 +17,7 @@ ANIIMO Slovenčina od Xiu_Le je neoficiálny fanúšikovský projekt, ktorého c
 
 Základ slovenských textov vznikol pomocou strojového prekladu a nástrojov umelej inteligencie (AI). Následne sa priebežne opravuje podľa pôvodných anglických textov, herného kontextu a hlásení hráčov. Ručné pripomienkovanie a cielené úpravy zahŕňajú názvy predmetov a schopností, akcie, opisy, pokyny a ďalšie texty rozhrania; pri spracovaní opráv sa naďalej využíva aj AI.
 
-**Celý preklad zatiaľ neprešiel úplnou ľudskou jazykovou a kontextovou revíziou.** Niektoré texty môžu byť nepresné, neprirodzené, nejednotné alebo zostať v angličtine. Verejné sprístupnenie neznamená, že ide o dokončený profesionálny preklad. Verzia **0.02 je testovacie vydanie**. Lokalizácia neposkytuje slovenský dabing a nemusí pokrývať texty dodávané serverom ani všetky obrázky s textom.
+**Celý preklad zatiaľ neprešiel úplnou ľudskou jazykovou a kontextovou revíziou.** Niektoré texty môžu byť nepresné, neprirodzené, nejednotné alebo zostať v angličtine. Verejné sprístupnenie neznamená, že ide o dokončený profesionálny preklad. Verzia **0.03 je testovacie vydanie**. Lokalizácia neposkytuje slovenský dabing a nemusí pokrývať texty dodávané serverom ani všetky obrázky s textom.
 
 ### Čo bolo otestované
 
@@ -37,7 +37,7 @@ Nové zálohy sa ukladajú do `%LOCALAPPDATA%\AniimoSlovencina\backups`. Podporo
 
 ### Kompatibilita a aktualizácie
 
-Toto vydanie je pripravené pre zostavu ANIIMO **3616231**. Ide o označenie zostavy používané hrou, nie o Steam build ID. Kompatibilita s inými zostavami nie je potvrdená. Po aktualizácii hry môže byť potrebný upravený lokalizačný balík alebo nový kompatibilný inštalátor; samotná zmena čísla zostavy v manifeste nestačí.
+Toto vydanie je pripravené pre zostavu ANIIMO **3629693**. Ide o označenie zostavy používané hrou, nie o Steam build ID. Kompatibilita s inými zostavami nie je potvrdená. Po aktualizácii hry môže byť potrebný upravený lokalizačný balík alebo nový kompatibilný inštalátor; samotná zmena čísla zostavy v manifeste nestačí.
 
 Inštalátor overuje zostavu aj známe kontrolné súčty súborov. Pri nezhode alebo neznámych zmenách nemá súbory automaticky prepisovať. Súčasná kombinácia s inými úpravami rovnakých súborov nie je overená.
 
@@ -45,7 +45,7 @@ Inštalátor overuje zostavu aj známe kontrolné súčty súborov. Pri nezhode 
 
 ## Stiahnutie a inštalácia
 
-[Stiahnuť inštalátor](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/v0.02/Aniimo-Slovencina-Instalator-1.1-preklad-0.02.exe)
+[Stiahnuť inštalátor](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/v0.03/Aniimo-Slovencina-Instalator-1.2-preklad-0.03.exe)
 
 1. Ukonči ANIIMO a spusti inštalátor.
 2. Skontroluj priečinok hry a nainštaluj slovenčinu.
@@ -53,7 +53,15 @@ Inštalátor overuje zostavu aj známe kontrolné súčty súborov. Pri nezhode 
 
 Inštalátor uchová pôvodnú anglickú zálohu. Tlačidlo **Obnoviť angličtinu** obnoví originály.
 
-Inštalátor **1.1** prináša oranžovo-modrý vzhľad, ikonu tučniaka a čitateľnejšie hlavné tlačidlo. Pribalený preklad zostáva **0.02**. Nový vzhľad získaš jednorazovým stiahnutím nového EXE; existujúci inštalátor sa sám neaktualizuje.
+Inštalátor **1.2** podporuje zostavu **3629693** a zachováva oranžovo-modrý vzhľad s tučniakom. Preklad **0.03** zahŕňa nové a zmenené texty; aj tieto texty sú priebežne revidovaný strojový návrh.
+
+**Pri prechode z 1.1 alebo 1.1.1 si raz stiahni nové EXE 1.2.** Staré EXE má pevne určenú starú zostavu a názvy súborov, preto nový balík neprijme. Samotné EXE sa automaticky neaktualizuje.
+
+Po spustení 1.2 klikni na **Skontrolovať znova** a potom na **Aktualizovať na 0.03**. Kontrola iba vyhľadá aktualizáciu; zápis začne až po stlačení tlačidla aktualizácie. Na čistej podporovanej hre sa ponúkne inštalácia.
+
+Pri prechode po aktualizácii hry sa prijmú iba presne rozpoznané zvyšky pôvodných úprav a overené anglické originály. Záloha novej zostavy je uložená oddelene v `build-3629693`; stará záloha sa nemení. Neznáme úpravy sa neprepíšu.
+
+Na oddelenej kópii zostavy 3629693 bol overený prechod zo zachovaných úprav 0.02 na 0.03, odmietnutie nesprávneho SHA-256, rollback po chybe zápisu a byte-identická obnova angličtiny novej zostavy. Herné testovanie nových textov ešte pokračuje.
 
 ## Online aktualizácie
 
