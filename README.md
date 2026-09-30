@@ -3,6 +3,12 @@
 Neoficiálny slovenský preklad. Aktuálna testovacia verzia prekladu: **0.02**.
 Podporovaná zostava hry: **3616231**. Verzia inštalátora: **1.0**.
 
+## Bezplatné používanie
+
+Slovenský preklad aj inštalátor sú pre hráčov **bezplatné**. Za stiahnutie, používanie ani dostupné aktualizácie prekladu nevyžadujeme platbu alebo predplatné. Na stiahnutie z verejného GitHub vydania nepotrebuješ účet ani členstvo na Discorde.
+
+Preklad vyžaduje samostatne nainštalovanú podporovanú verziu ANIIMO. Bezplatné sprístupnenie prekladu nemení práva k samotnej hre ani neznamená udelenie otvorenej licencie k jej obsahu.
+
 ## Vyhlásenie k verejnej lokalizácii
 
 ANIIMO Slovenčina od Xiu_Le je neoficiálny fanúšikovský projekt, ktorého cieľom je sprístupniť hru slovenským hráčom. Nie je oficiálnou súčasťou hry ani lokalizáciou vydanou či schválenou jej vývojármi alebo vydavateľom. Názov ANIIMO, herný obsah a súvisiace značky patria príslušným vlastníkom.
@@ -62,7 +68,7 @@ Aktualizujú sa iba lokalizačné dáta, nie samotný EXE inštalátor.
 
 ## Hlásenie chýb
 
-Chyby a nesprávne preklady nám hlás prednostne na [Discorde Aniimo CZ/SK](https://discord.gg/ygN2cWJmRW). Alternatívne môžeš použiť [GitHub Issues](https://github.com/XiuLe-cloud/aniimo-slovencina/issues).
+Chyby a nesprávne preklady nám hlás prednostne na [Discorde Aniimo CZ/SK](https://discord.gg/ygN2cWJmRW). Po pripojení otvor fórum [chyby-prekladu](https://discord.com/channels/1546824435770720256/1554686019599859742). Alternatívne môžeš použiť [GitHub Issues](https://github.com/XiuLe-cloud/aniimo-slovencina/issues).
 
 V hlásení uveď verziu prekladu, zostavu hry, miesto alebo situáciu, v ktorej sa chyba objavila, a prilož snímku nesprávneho textu. Ak môžeš, doplň pôvodný anglický text alebo návrh opravy. Pred odoslaním snímky skontroluj, či neobsahuje osobné údaje.
 
