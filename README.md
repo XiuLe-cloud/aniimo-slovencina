@@ -1,7 +1,7 @@
 # ANIIMO Slovenčina od Xiu_Le
 
 Neoficiálny slovenský preklad. Aktuálna testovacia verzia prekladu: **0.02**.
-Podporovaná zostava hry: **3616231**. Verzia inštalátora: **1.0**.
+Podporovaná zostava hry: **3616231**. Verzia inštalátora: **1.1**.
 
 ## Bezplatné používanie
 
@@ -45,13 +45,15 @@ Inštalátor overuje zostavu aj známe kontrolné súčty súborov. Pri nezhode 
 
 ## Stiahnutie a inštalácia
 
-[Stiahnuť inštalátor](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/v0.02/Aniimo-Slovencina-Instalator-1.0-preklad-0.02.exe)
+[Stiahnuť inštalátor](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/v0.02/Aniimo-Slovencina-Instalator-1.1-preklad-0.02.exe)
 
 1. Ukonči ANIIMO a spusti inštalátor.
 2. Skontroluj priečinok hry a nainštaluj slovenčinu.
 3. V hre ponechaj jazyk **English**.
 
 Inštalátor uchová pôvodnú anglickú zálohu. Tlačidlo **Obnoviť angličtinu** obnoví originály.
+
+Inštalátor **1.1** prináša oranžovo-modrý vzhľad, ikonu tučniaka a čitateľnejšie hlavné tlačidlo. Pribalený preklad zostáva **0.02**. Nový vzhľad získaš jednorazovým stiahnutím nového EXE; existujúci inštalátor sa sám neaktualizuje.
 
 ## Online aktualizácie
 
