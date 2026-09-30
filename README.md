@@ -62,6 +62,8 @@ Aktualizujú sa iba lokalizačné dáta, nie samotný EXE inštalátor.
 
 ## Hlásenie chýb
 
-V [Issues](https://github.com/XiuLe-cloud/aniimo-slovencina/issues) uveď verziu prekladu, zostavu hry, miesto alebo situáciu, v ktorej sa chyba objavila, a prilož snímku nesprávneho textu. Ak môžeš, doplň pôvodný anglický text alebo návrh opravy. Pred odoslaním snímky skontroluj, či neobsahuje osobné údaje.
+Chyby a nesprávne preklady nám hlás prednostne na [Discorde Aniimo CZ/SK](https://discord.gg/ygN2cWJmRW). Alternatívne môžeš použiť [GitHub Issues](https://github.com/XiuLe-cloud/aniimo-slovencina/issues).
+
+V hlásení uveď verziu prekladu, zostavu hry, miesto alebo situáciu, v ktorej sa chyba objavila, a prilož snímku nesprávneho textu. Ak môžeš, doplň pôvodný anglický text alebo návrh opravy. Pred odoslaním snímky skontroluj, či neobsahuje osobné údaje.
 
 Ďakujeme všetkým hráčom, ktorí pomáhajú preklad skúšať a zlepšovať.
