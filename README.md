@@ -1,7 +1,7 @@
 # ANIIMO Slovenčina od Xiu_Le
 
 Neoficiálny slovenský preklad. Aktuálna testovacia verzia prekladu: **0.03**.
-Podporovaná zostava hry: **3629693**. Verzia inštalátora: **1.2**.
+Podporovaná zostava hry: **3629693**. Verzia inštalátora: **1.2.1**.
 
 ## Bezplatné používanie
 
@@ -45,7 +45,7 @@ Inštalátor overuje zostavu aj známe kontrolné súčty súborov. Pri nezhode 
 
 ## Stiahnutie a inštalácia
 
-[Stiahnuť inštalátor](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/v0.03/Aniimo-Slovencina-Instalator-1.2-preklad-0.03.exe)
+[Stiahnuť inštalátor](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/v0.03/Aniimo-Slovencina-Instalator-1.2.1-preklad-0.03.exe)
 
 1. Ukonči ANIIMO a spusti inštalátor.
 2. Skontroluj priečinok hry a nainštaluj slovenčinu.
@@ -53,11 +53,11 @@ Inštalátor overuje zostavu aj známe kontrolné súčty súborov. Pri nezhode 
 
 Inštalátor uchová pôvodnú anglickú zálohu. Tlačidlo **Obnoviť angličtinu** obnoví originály.
 
-Inštalátor **1.2** podporuje zostavu **3629693** a zachováva oranžovo-modrý vzhľad s tučniakom. Preklad **0.03** zahŕňa nové a zmenené texty; aj tieto texty sú priebežne revidovaný strojový návrh.
+Inštalátor **1.2.1** podporuje zostavu **3629693** a zachováva oranžovo-modrý vzhľad s tučniakom. Preklad **0.03** zahŕňa nové a zmenené texty; aj tieto texty sú priebežne revidovaný strojový návrh.
 
-**Pri prechode z 1.1 alebo 1.1.1 si raz stiahni nové EXE 1.2.** Staré EXE má pevne určenú starú zostavu a názvy súborov, preto nový balík neprijme. Samotné EXE sa automaticky neaktualizuje.
+**Pri prechode z 1.1 alebo 1.1.1 si raz stiahni nové EXE 1.2.1.** Staré EXE má pevne určenú starú zostavu a názvy súborov, preto nový balík neprijme. Samotné EXE sa automaticky neaktualizuje.
 
-Po spustení 1.2 klikni na **Skontrolovať znova** a potom na **Aktualizovať na 0.03**. Kontrola iba vyhľadá aktualizáciu; zápis začne až po stlačení tlačidla aktualizácie. Na čistej podporovanej hre sa ponúkne inštalácia.
+Po spustení 1.2.1 klikni na **Skontrolovať znova** a potom na **Aktualizovať na 0.03**. Kontrola iba vyhľadá aktualizáciu; zápis začne až po stlačení tlačidla aktualizácie. Na čistej podporovanej hre sa ponúkne inštalácia.
 
 Pri prechode po aktualizácii hry sa prijmú iba presne rozpoznané zvyšky pôvodných úprav a overené anglické originály. Záloha novej zostavy je uložená oddelene v `build-3629693`; stará záloha sa nemení. Neznáme úpravy sa neprepíšu.
 
@@ -83,3 +83,6 @@ Chyby a nesprávne preklady nám hlás prednostne na [Discorde Aniimo CZ/SK](htt
 V hlásení uveď verziu prekladu, zostavu hry, miesto alebo situáciu, v ktorej sa chyba objavila, a prilož snímku nesprávneho textu. Ak môžeš, doplň pôvodný anglický text alebo návrh opravy. Pred odoslaním snímky skontroluj, či neobsahuje osobné údaje.
 
 Ďakujeme všetkým hráčom, ktorí pomáhajú preklad skúšať a zlepšovať.
+
+### Oprava inštalátora 1.2.1
+Verzia 1.2.1 opravuje chybu "The directory name is invalid". Ak používaš EXE 1.2, stiahni si opravený inštalátor cez odkaz vyššie. Verzia prekladu zostáva 0.03.
