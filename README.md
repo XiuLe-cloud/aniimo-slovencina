@@ -1,6 +1,6 @@
 # ANIIMO Slovenčina od Xiu_Le
 
-Neoficiálny slovenský preklad. Aktuálna testovacia verzia prekladu: **0.04**.
+Neoficiálny slovenský preklad. Aktuálna testovacia verzia prekladu: **0.05**.
 Podporovaná zostava hry: **3634150**. Verzia inštalátora: **1.3**.
 
 ## Bezplatné používanie
@@ -17,7 +17,7 @@ ANIIMO Slovenčina od Xiu_Le je neoficiálny fanúšikovský projekt, ktorého c
 
 Základ slovenských textov vznikol pomocou strojového prekladu a nástrojov umelej inteligencie (AI). Následne sa priebežne opravuje podľa pôvodných anglických textov, herného kontextu a hlásení hráčov. Ručné pripomienkovanie a cielené úpravy zahŕňajú názvy predmetov a schopností, akcie, opisy, pokyny a ďalšie texty rozhrania; pri spracovaní opráv sa naďalej využíva aj AI.
 
-**Celý preklad zatiaľ neprešiel úplnou ľudskou jazykovou a kontextovou revíziou.** Niektoré texty môžu byť nepresné, neprirodzené, nejednotné alebo zostať v angličtine. Verejné sprístupnenie neznamená, že ide o dokončený profesionálny preklad. Verzia **0.04 je testovacie vydanie**. Lokalizácia neposkytuje slovenský dabing a nemusí pokrývať texty dodávané serverom ani všetky obrázky s textom.
+**Celý preklad zatiaľ neprešiel úplnou ľudskou jazykovou a kontextovou revíziou.** Niektoré texty môžu byť nepresné, neprirodzené, nejednotné alebo zostať v angličtine. Verejné sprístupnenie neznamená, že ide o dokončený profesionálny preklad. Verzia **0.05 je testovacie vydanie**. Lokalizácia neposkytuje slovenský dabing a nemusí pokrývať texty dodávané serverom ani všetky obrázky s textom.
 
 ### Čo bolo otestované
 
@@ -49,7 +49,8 @@ Inštalátor overuje zostavu aj známe kontrolné súčty súborov. Pri nezhode 
 
 1. Ukonči ANIIMO a spusti inštalátor.
 2. Skontroluj priečinok hry a nainštaluj slovenčinu.
-3. V hre ponechaj jazyk **English**.
+3. Klikni na **Skontrolovať znova** a potom na **Aktualizovať na 0.05**. Pribalený preklad v EXE 1.3 je 0.04; najnovší preklad sa sťahuje online.
+4. V hre ponechaj jazyk **English**.
 
 Inštalátor uchová pôvodnú anglickú zálohu. Tlačidlo **Obnoviť angličtinu** obnoví originály.
 
@@ -57,7 +58,7 @@ Inštalátor **1.3** podporuje zostavu **3634150** a zachováva oranžovo-modrý
 
 **Pri prechode z 1.2.1 alebo staršieho inštalátora si raz stiahni nové EXE 1.3.** Staré EXE má pevne určenú starú zostavu a názvy súborov, preto nový balík neprijme. Samotné EXE sa automaticky neaktualizuje.
 
-Po spustení 1.3 klikni na **Skontrolovať znova** a potom na **Aktualizovať na 0.04**. Kontrola iba vyhľadá aktualizáciu; zápis začne až po stlačení tlačidla aktualizácie. Na čistej podporovanej hre sa ponúkne inštalácia.
+Po spustení 1.3 klikni na **Skontrolovať znova** a potom na **Aktualizovať na 0.05**. Kontrola iba vyhľadá aktualizáciu; zápis začne až po stlačení tlačidla aktualizácie. Na čistej podporovanej hre sa ponúkne inštalácia.
 
 Pri prechode po aktualizácii hry sa prijmú iba presne rozpoznané zvyšky pôvodných úprav a overené anglické originály. Záloha novej zostavy je uložená oddelene v `build-3634150`; stará záloha sa nemení. Neznáme úpravy sa neprepíšu.
 
@@ -87,3 +88,9 @@ V hlásení uveď verziu prekladu, zostavu hry, miesto alebo situáciu, v ktorej
 ## Overenie vydania 0.04
 
 Prešlo 31 testov pipeline. Technická kontrola 112 264 záznamov neobsahuje blokujúce chyby. Zahrnutý je 1 nový a 15 zmenených EN textov a cielené opravy starších chýb. Inštalačné testy overili odmietnutie nesprávneho SHA-256, rollback po chybe zápisu a bajtovo zhodnú obnovu angličtiny. Úplné jazykové a herné testovanie tohto vydania ešte neprebehlo.
+
+## Aktualizácia prekladu 0.05
+
+[Vydanie 0.05](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/tag/v0.05) pridáva 1010 upravených záznamov: 934 opakovaných označení úrovne karavanu a 76 ďalších textov stôp, predmetov a rozhrania. Existujúci inštalátor **1.3 zostáva nezmenený**.
+
+Prechod 0.04 → 0.05 bol overený na izolovanej kópii pomocou pôvodného aktualizátora, vrátane odmietnutia chybného SHA-256, rollbacku a byte-identickej obnovy angličtiny. Technická kontrola celého korpusu prešla bez blokujúcich chýb; úplná jazyková revízia ešte pokračuje.
