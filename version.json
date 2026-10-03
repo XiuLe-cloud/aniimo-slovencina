@@ -1,11 +1,10 @@
 {
-  "translation_version": "0.03",
-  "game_build": "3629693",
-  "package_url": "https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/v0.03/Aniimo-Slovencina-0.03.zip",
-  "sha256": "14ea6b05f031878c406e95e62157dc1b6020233c17296951b861e46d7fb3046f",
+  "translation_version": "0.04",
+  "game_build": "3634150",
+  "package_url": "https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/v0.04/Aniimo-Slovencina-0.04.zip",
+  "sha256": "797f9004b1ddcb7e840090ff11a0b15a96b6cd93f058340a16b36cfbbfa29a3a",
   "changelog": [
-    "Podpora zostavy ANIIMO 3629693",
-    "Doplnené nové texty a aktualizované slovenské písmo",
-    "Bezpečný prechod zo zachovaných úprav 0.02 cez inštalátor 1.2"
+    "Podpora zostavy ANIIMO 3634150; vyžaduje inštalátor 1.3.",
+    "Aktualizované texty a opravené formátovacie značky, čísla a opisy schopností."
   ]
 }
