@@ -94,3 +94,9 @@ Prešlo 31 testov pipeline. Technická kontrola 112 264 záznamov neobsahuje blo
 [Vydanie 0.05](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/tag/v0.05) pridáva 1010 upravených záznamov: 934 opakovaných označení úrovne karavanu a 76 ďalších textov stôp, predmetov a rozhrania. Existujúci inštalátor **1.3 zostáva nezmenený**.
 
 Prechod 0.04 → 0.05 bol overený na izolovanej kópii pomocou pôvodného aktualizátora, vrátane odmietnutia chybného SHA-256, rollbacku a byte-identickej obnovy angličtiny. Technická kontrola celého korpusu prešla bez blokujúcich chýb; úplná jazyková revízia ešte pokračuje.
+
+## Zdrojové nástroje a prekladové dáta
+
+[Kompletný zdrojový archív 0.05](ANIIMO-Slovencina-zdroje-0.05.zip) obsahuje zdroj GUI inštalátora 1.3, inštalačné a aktualizačné skripty, prekladovú pipeline, 31 testov a nástroje na zostavenie dát. Pre prezeranie bez rozbaľovania sú dostupné [prekladové dáta 0.05](translations.sk.json) a [zdroj inštalátora](Installer-1.3.cs).
+
+Postup zostavenia, rozsah exportu a práva sú v [SOURCE.md](SOURCE.md). Na bežné hranie tieto súbory nepotrebuješ. ZIP so zdrojmi nie je aktualizačný balík; hráči používajú inštalátor a online aktualizáciu.
