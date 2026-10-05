@@ -1,11 +1,11 @@
 {
-  "translation_version": "0.05",
+  "translation_version": "0.06",
   "game_build": "3634150",
-  "package_url": "https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/v0.05/Aniimo-Slovencina-0.05.zip",
-  "sha256": "f2498824230aa48aaac44dcdaf07aa7694c4239b5fc444090d9832be3270aa06",
+  "package_url": "https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/v0.06/Aniimo-Slovencina-0.06.zip",
+  "sha256": "013cb302e3f0c9a84b77b39826738207001619ec67d61b4ab541c8751bef0e31",
   "changelog": [
-    "Opravené a doplnené texty stôp, predmetov a správy domova.",
-    "Preložené opakované označenia úrovne karavanu; spolu 1010 upravených záznamov.",
-    "Pre zostavu ANIIMO 3634150. Aktualizácia cez existujúci inštalátor 1.3, bez nového EXE."
+    "5 593 schválených opráv; HIGH a MEDIUM QA dokončené, technická QA PASS.",
+    "Installer 1.4: posilnená ochrana cieľových ciest, záloh a obnovy.",
+    "Správca potvrdil funkčnosť v hre; LOW a NEEDS_CONTEXT pokračujú."
   ]
 }

@@ -1,0 +1,36 @@
+{
+  "installerVersion": "1.3",
+  "translationVersion": "0.05",
+  "releaseVersion": "0.05",
+  "releaseChannel": "test",
+  "gameBuild": 3634150,
+  "textVersion": 1790825290,
+  "records": 112264,
+  "changedRecords": 96039,
+  "translation": "local-machine-draft",
+  "gameTested": false,
+  "sourceFiles": {
+    "LuaScripts.xdf": "d592fd55ae14bf423dc72a64bbe215c63d0153f13b7f2f51db64af8358be0a6c",
+    "LuaScripts.xdt": "9f073b1c7fbf688795af0a63100b71295149cfa4e197f32a729646221d80bb9f",
+    "LuaCacheVer.txt": "27aae51ba2a34a2106cc680703036b4418246f5dec819e40d4f189ba393f42c3",
+    "LuaScripts/Data/I18N/Compress_en.bin": "7fb07b09e026f13f57363117e8a18575c23578f405453566ff4c946a9631e1bd",
+    "builtin/LuaScripts.xdf": "d592fd55ae14bf423dc72a64bbe215c63d0153f13b7f2f51db64af8358be0a6c",
+    "builtin/LuaScripts.xdt": "9f073b1c7fbf688795af0a63100b71295149cfa4e197f32a729646221d80bb9f",
+    "fonts/xgui_font_94caf04d33b30d3bf95fff3d59018c81.uab": "8a75ddaed7cade899bfe89baad5bec738c111b62295bebd0b73d2856177e8cde",
+    "fonts/xgui_font_asset_0_7c59a01880d83ee3f861970de35c3ce3.uab": "1cfabdf7bb0f69d1624f98ec32f96f23d3de84bc01145e0c690c37a3a7faf614",
+    "fonts/xpt21_ar_resx_04a564c8_xgui_font_0_9b0f7d72fb917cb12ac86710360d45c8.uab": "6d8d8f79fd513df454382c3bf5511cda8f8df22b3f092454121961bd29df806c",
+    "fonts/xpt21_mres_exall_0_56f2e8c16cb439a06833bfae669c0e6c.uab": "232c368e38be774afbf597674280b6e2554a51f4756c0b4630b951b6903f93fb",
+    "boot/resources.assets.resS": "68601529d98d98d3baff09a7499bd533774788b18db603b38516599cbc769fd7",
+    "fonts/xpt22_mres_exall_0_9fd11bcc7e5149929c8fc6622a551ae9.uab": "7428d3c7bfbed025ab20ab77ec490103ad05aa83c925ac2452930018405fa0ab"
+  },
+  "payloadFiles": {
+    "Compress_en.bin": "8ba850ec5cf23e4bf6a44222ae3c618cc97221f8283e20bee3689b026579c591",
+    "NewTextMap_en.json": "3be2b449592f6d18fbe61c3bf65ea5ea0786525243ea6791e33c35de9318add7",
+    "xgui_font_94caf04d33b30d3bf95fff3d59018c81.uab": "07dc6014c11215cf5572ca39caf3e185cdbdd179ff35d6da3035f26b47a7571b",
+    "xgui_font_asset_0_7c59a01880d83ee3f861970de35c3ce3.uab": "f91359f87c15f20facffd2e3fc3a00dcf0cf728acf45226ddba96df8d035008e",
+    "xpt21_ar_resx_04a564c8_xgui_font_0_9b0f7d72fb917cb12ac86710360d45c8.uab": "16031b3edc6a673a330a64a5a9aaba14085cf6fc6976427bb0cb1bb4a322eab6",
+    "xpt21_mres_exall_0_56f2e8c16cb439a06833bfae669c0e6c.uab": "ea102cf9efbaa111033b571d971505da0034e6628b905e4be9b27b4e2834aebd",
+    "resources.assets.resS": "61706f64b126142052b9ac938c109770d6db84cb31373a41126f7b709eaaaf7a",
+    "xpt22_mres_exall_0_9fd11bcc7e5149929c8fc6622a551ae9.uab": "fa12a3a2a249507bfa4f08283eaa98f6936b12797ca37a06b62e74ba0a1a7df1"
+  }
+}

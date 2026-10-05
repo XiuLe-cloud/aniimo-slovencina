@@ -1,0 +1,158 @@
+{
+  "outside_writes": 0,
+  "tests": [
+    {
+      "result": "PASS",
+      "test": "HTTP feed/metadata"
+    },
+    {
+      "result": "PASS",
+      "test": "clean online 0.06 + English backup"
+    },
+    {
+      "result": "PASS",
+      "test": "clean install Restore English byte-identical"
+    },
+    {
+      "result": "PASS",
+      "test": "SHA-256 mismatch"
+    },
+    {
+      "result": "PASS",
+      "test": "corrupt ZIP with valid transport hash"
+    },
+    {
+      "result": "PASS",
+      "test": "tampered payload with valid ZIP hash"
+    },
+    {
+      "result": "PASS",
+      "test": "invalid feed"
+    },
+    {
+      "result": "PASS",
+      "test": "wrong game build"
+    },
+    {
+      "result": "PASS",
+      "test": "feed/package version mismatch"
+    },
+    {
+      "result": "PASS",
+      "test": "ZIP traversal"
+    },
+    {
+      "result": "PASS",
+      "test": "ZIP incomplete allowlist"
+    },
+    {
+      "result": "PASS",
+      "test": "injected mid-write failure"
+    },
+    {
+      "result": "PASS",
+      "test": "rollback byte-identical files + metadata + original backups"
+    },
+    {
+      "result": "PASS",
+      "test": "original 1.3 extraction junction reproduction"
+    },
+    {
+      "result": "PASS",
+      "test": "copy through junction"
+    },
+    {
+      "result": "PASS",
+      "test": "backup path junction"
+    },
+    {
+      "result": "PASS",
+      "test": "rollback/restore copy junction"
+    },
+    {
+      "result": "PASS",
+      "test": "cleanup junction"
+    },
+    {
+      "result": "PASS",
+      "test": "archive move junction"
+    },
+    {
+      "result": "PASS",
+      "test": "hardlink overwrite"
+    },
+    {
+      "result": "PASS",
+      "test": "ADS path"
+    },
+    {
+      "result": "PASS",
+      "test": "lexical parent traversal"
+    },
+    {
+      "result": "NOT_RUN",
+      "reason": "Windows privilege/developer mode unavailable",
+      "test": "directory symlink"
+    },
+    {
+      "result": "PASS",
+      "test": "ancestor rename while writing"
+    },
+    {
+      "result": "PASS",
+      "test": "0.05 -> 0.06"
+    },
+    {
+      "result": "PASS",
+      "test": "Status GUI decision offers 0.07 over 0.06 (loopback feed injection)"
+    },
+    {
+      "result": "PASS",
+      "test": "simulated 0.06 -> 0.07 same installer"
+    },
+    {
+      "result": "PASS",
+      "test": "full Restore English through game junction"
+    },
+    {
+      "result": "PASS",
+      "test": "full install through game junction"
+    },
+    {
+      "result": "PASS",
+      "test": "Restore English after future update byte-identical"
+    },
+    {
+      "result": "PASS",
+      "test": "clean bundled/offline 0.06"
+    },
+    {
+      "result": "PASS",
+      "test": "offline Restore English byte-identical"
+    }
+  ],
+  "fixture_only": true,
+  "python_unit_tests": {
+    "passed": 31
+  },
+  "compiled_exe": {
+    "junction_rejected": "PASS",
+    "outside_writes": 0,
+    "embedded_sources": "MATCH",
+    "extraction": "PASS"
+  },
+  "records": 112264,
+  "production_changes_this_task": 0,
+  "approved_changes_since_005": 5593,
+  "protected_qa_files_verified": 77,
+  "in_game_test": {
+    "result": "PASS",
+    "evidence": "Maintainer confirmation on 2026-10-05; not exhaustive text coverage"
+  },
+  "final_exe": {
+    "embedded_files": 19,
+    "all_hashes_match": true,
+    "junction_rejected": true,
+    "outside_writes": 0
+  }
+}

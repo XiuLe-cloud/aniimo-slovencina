@@ -19,7 +19,7 @@ internal sealed class AccentButton : Button {
 }
 internal static class Installer {
     private const string PayloadHash = "PAYLOAD_SHA256";
-    private const string PackageName = "Aniimo-SK-3634150-strojovy-preklad";
+    private const string PackageName = "Aniimo-SK-package";
     [STAThread]
     private static int Main(string[] args) {
         try {
@@ -34,7 +34,7 @@ internal static class Installer {
                     form.Show(); install.Enabled=true; Application.DoEvents();
                     using(var bitmap=new Bitmap(form.Width,form.Height)) {
                         form.DrawToBitmap(bitmap,new Rectangle(Point.Empty,form.Size));
-                        bitmap.Save(args[1]);
+                        using(var imageOutput=AniimoSafePath.OpenWrite(Path.GetFullPath(args[1]),false,true)) bitmap.Save(imageOutput,System.Drawing.Imaging.ImageFormat.Png);
                     }
                     form.Close(); return 0;
                 }
@@ -49,7 +49,8 @@ internal static class Installer {
     }
     private static string Extract(string destination) {
         string root=Path.GetFullPath(destination);
-        Directory.CreateDirectory(root);
+        AniimoSafePath.ValidateTree(root);
+        AniimoSafePath.DirectorySafe(root);
         using(var stream=Assembly.GetExecutingAssembly().GetManifestResourceStream("payload.zip")) {
             if(stream==null) throw new InvalidDataException("Chýbajú inštalačné dáta.");
             using(var sha=SHA256.Create()) {
@@ -62,9 +63,9 @@ internal static class Installer {
                 foreach(var entry in zip.Entries) {
                     string target=Path.GetFullPath(Path.Combine(root,entry.FullName.Replace('/',Path.DirectorySeparatorChar)));
                     if(!target.StartsWith(prefix,StringComparison.OrdinalIgnoreCase)) throw new InvalidDataException("Neplatná cesta v balíku.");
-                    if(entry.FullName.EndsWith("/")) { Directory.CreateDirectory(target); continue; }
-                    Directory.CreateDirectory(Path.GetDirectoryName(target));
-                    using(var input=entry.Open()) using(var output=new FileStream(target,FileMode.CreateNew)) input.CopyTo(output);
+                    if(entry.FullName.EndsWith("/")) { AniimoSafePath.DirectorySafe(target); continue; }
+                    AniimoSafePath.DirectorySafe(Path.GetDirectoryName(target));
+                    using(var input=entry.Open()) using(var output=AniimoSafePath.OpenWrite(target,false,true)) input.CopyTo(output);
                 }
             }
         }
@@ -101,7 +102,7 @@ internal static class Installer {
         var header=new Panel {Left=0,Top=0,Width=740,Height=140,BackColor=Color.FromArgb(12,46,77)};
         header.Controls.Add(TextLabel("ANIIMO  /  SLOVENČINA OD XIU_LE",30,20,580,24,10,Color.FromArgb(255,177,85)));
         header.Controls.Add(TextLabel("Dobrodružstvo po slovensky",28,51,570,45,24,Color.White));
-        header.Controls.Add(TextLabel("Inštalátor 1.3  •  Pribalený preklad 0.01  •  Testovacie vydanie",30,106,580,26,10,Color.FromArgb(208,231,249)));
+        header.Controls.Add(TextLabel("Inštalátor 1.4  •  Pribalený preklad BUNDLED_TRANSLATION_VERSION  •  Testovacie vydanie",30,106,580,26,10,Color.FromArgb(208,231,249)));
         using(var iconStream=Assembly.GetExecutingAssembly().GetManifestResourceStream("penguin.ico"))
             if(iconStream!=null) f.Icon=new Icon(iconStream);
         var mascotStream=Assembly.GetExecutingAssembly().GetManifestResourceStream("penguin.png");
@@ -128,14 +129,14 @@ internal static class Installer {
         settings.Click+=(a,b)=>ConfigureUpdates(f);
         f.Controls.AddRange(new Control[]{installedLabel,status,refresh,backups,settings});
         f.Controls.Add(TextLabel("ČO JE NOVÉ",30,408,680,23,9,Color.FromArgb(63,96,123)));
-        f.Controls.Add(TextLabel("• Online aktualizácie prekladu bez nového EXE.\n• Kontrola SHA-256 a obnova pri neúspešnej aktualizácii.\n• Opravené akcie zariadení a názvy schopností.",30,436,680,77,10,Color.FromArgb(12,46,77)));
+        f.Controls.Add(TextLabel("• Online aktualizácie prekladu bez nového EXE.\n• Kontrola SHA-256 a obnova pri neúspešnej aktualizácii.\n• Posilnená ochrana cieľových ciest a záloh.",30,436,680,77,10,Color.FromArgb(12,46,77)));
         f.Controls.Add(TextLabel("V hre vyber English. Preklad sa priebežne jazykovo opravuje.",30,518,680,24,10,Color.FromArgb(63,96,123)));
         progress=new ProgressBar {Left=30,Top=552,Width=680,Height=5,Visible=false,Style=ProgressBarStyle.Marquee};
         install=ActionButton("Nainštalovať slovenčinu",30,574,334,true);
         restore=ActionButton("Obnoviť angličtinu",376,574,334,false);
         install.Enabled=restore.Enabled=backups.Enabled=false;
         install.Click+=(a,b)=>Run(f,actionMode);restore.Click+=(a,b)=>Run(f,"restore");
-        details=new TextBox {Left=30,Top=632,Width=680,Height=48,ReadOnly=true,Multiline=true,ScrollBars=ScrollBars.Vertical,BorderStyle=BorderStyle.FixedSingle,Text="Podporovaná zostava: 3634150. Kontrola stavu nemení súbory hry."};
+        details=new TextBox {Left=30,Top=632,Width=680,Height=48,ReadOnly=true,Multiline=true,ScrollBars=ScrollBars.Vertical,BorderStyle=BorderStyle.FixedSingle,Text="Podporovaná zostava: BUNDLED_GAME_BUILD. Kontrola stavu nemení súbory hry."};
         f.Controls.AddRange(new Control[]{progress,install,restore,details});
         f.FormClosing+=(a,b)=> {if(busy)b.Cancel=true;};
         f.Shown+=(a,b)=> {if(Environment.GetCommandLineArgs().Length==1)Run(f,"status");};
@@ -153,8 +154,8 @@ internal static class Installer {
             save.Click+=(a,b)=> {try {
                 string value=url.Text.Trim();Uri uri;
                 if(value.Length>0&&(!Uri.TryCreate(value,UriKind.Absolute,out uri)||uri.UserInfo.Length>0||(uri.Scheme!="https"&&!(uri.Scheme=="http"&&uri.IsLoopback))))throw new Exception("Zadaj platnú HTTPS adresu version.json.");
-                Directory.CreateDirectory(folder);
-                File.WriteAllText(config,new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(new {version_url=value}),new System.Text.UTF8Encoding(false));
+                AniimoSafePath.DirectorySafe(folder);
+                AniimoSafePath.WriteText(config,new System.Web.Script.Serialization.JavaScriptSerializer().Serialize(new {version_url=value}));
                 dialog.DialogResult=DialogResult.OK;dialog.Close();
             }catch(Exception ex){MessageBox.Show(dialog,ex.Message,"Nastavenie sa nepodarilo uložiť");}};
             if(dialog.ShowDialog(owner)==DialogResult.OK)Run(owner,"status");

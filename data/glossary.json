@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "notes": "Conservative initial glossary. Context-sensitive terms require key restrictions. No claim of full human review.",
+  "terms": [
+    {"en_term":"Aniimo","preferred_sk_term":"Aniimo","alternatives":[],"do_not_translate":true,"context":"Game and creatures","notes":"Preserve established name","manual_lock":true,"keys":[]},
+    {"en_term":"Chest","preferred_sk_term":"Truhlica","alternatives":["truhlicu","truhlice","truhlíc"],"do_not_translate":false,"context":"Loot container only; never body or avatar","notes":"Draft term; add specific keys before enabling","manual_lock":false,"keys":["DISABLED_UNTIL_CONTEXT_KEYS_REVIEWED"]}
+  ]
+}
