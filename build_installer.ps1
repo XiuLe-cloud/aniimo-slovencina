@@ -19,4 +19,3 @@ $digest=(Get-FileHash -LiteralPath $output -Algorithm SHA256).Hash.ToLowerInvari
 Copy-Item -LiteralPath $output -Destination (Join-Path $PSScriptRoot 'dist\Aniimo-Slovencina-Instalator.exe') -Force
 [IO.File]::WriteAllText((Join-Path $PSScriptRoot 'dist\Aniimo-Slovencina-Instalator.exe.sha256'),($digest+'  Aniimo-Slovencina-Instalator.exe'),[Text.Encoding]::ASCII)
 Get-Item -LiteralPath $output | Select-Object FullName,Length
-
