@@ -102,7 +102,7 @@ internal static class Installer {
         var header=new Panel {Left=0,Top=0,Width=740,Height=140,BackColor=Color.FromArgb(12,46,77)};
         header.Controls.Add(TextLabel("ANIIMO  /  SLOVENČINA OD XIU_LE",30,20,580,24,10,Color.FromArgb(255,177,85)));
         header.Controls.Add(TextLabel("Dobrodružstvo po slovensky",28,51,570,45,24,Color.White));
-        header.Controls.Add(TextLabel("Inštalátor 1.4  •  Pribalený preklad BUNDLED_TRANSLATION_VERSION  •  Testovacie vydanie",30,106,580,26,10,Color.FromArgb(208,231,249)));
+        header.Controls.Add(TextLabel("Inštalátor 1.4.1  •  Pribalený preklad BUNDLED_TRANSLATION_VERSION  •  Testovacie vydanie",30,106,580,26,10,Color.FromArgb(208,231,249)));
         using(var iconStream=Assembly.GetExecutingAssembly().GetManifestResourceStream("penguin.ico"))
             if(iconStream!=null) f.Icon=new Icon(iconStream);
         var mascotStream=Assembly.GetExecutingAssembly().GetManifestResourceStream("penguin.png");
