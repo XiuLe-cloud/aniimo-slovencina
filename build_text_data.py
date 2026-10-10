@@ -9,7 +9,7 @@ from pipeline.qa import check
 
 def main():
     parser=argparse.ArgumentParser()
-    parser.add_argument('--output',type=Path,default=Path('dist/text-0.06'))
+    parser.add_argument('--output',type=Path,default=Path('dist/text-0.07'))
     args=parser.parse_args()
     root=Path(__file__).resolve().parent
     rows=json.loads((root/'data/translations.sk.json').read_text(encoding='utf8'))

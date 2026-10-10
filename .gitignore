@@ -28,3 +28,6 @@ qa/*checkpoint*
 qa/*proposals*
 qa/*before*
 qa/*dump*
+
+# Synthetic test scratch output
+pipeline/tests/output/

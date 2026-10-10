@@ -2,13 +2,13 @@
 
 Bezplatná neoficiálna komunitná lokalizácia ANIIMO od Xiu_Le.
 
-**[Stiahnuť Installer 1.4 pre preklad 0.06](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/v0.06/Aniimo-Slovencina-Instalator-1.4-preklad-0.06.exe)** · [Release 0.06 a kontrolné súčty](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/tag/v0.06)
+**[Stiahnuť Installer 1.4.1 pre preklad 0.07](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/v0.07/Aniimo-Slovencina-Instalator-1.4.1-preklad-0.07.exe)** · [Release 0.07 a kontrolné súčty](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/tag/v0.07)
 
 | Údaj | Stav |
 |---|---|
-| Translation | **0.06** |
-| Installer | **1.4** |
-| Podporovaná zostava hry | **3634150** (označenie hry, nie Steam build ID) |
+| Translation | **0.07** |
+| Installer | **1.4.1** |
+| Podporovaná zostava hry | **3668494** (označenie hry, nie Steam build ID) |
 | HIGH QA | **Dokončená** |
 | MEDIUM QA | **Dokončená** |
 | Technical QA | **PASS** |
@@ -17,27 +17,27 @@ Bezplatná neoficiálna komunitná lokalizácia ANIIMO od Xiu_Le.
 
 ## Pôvod a kvalita prekladu
 
-Základ vznikol pomocou AI/strojového prekladu (MT). Následne prešiel systematickou jazykovou a kontextovou QA voči anglickému originálu, technickými kontrolami a testovaním v hre. Kontextovo nejasné prípady zostávajú odložené. Správca projektu potvrdil funkčnosť Installer 1.4 a prekladu 0.06 priamo v ANIIMO. Pri príprave a opravách sa naďalej používa AI a ľudské schvaľovanie návrhov. Nie je pravda, že celý preklad je 100 % manuálne skontrolovaný.
+Základ vznikol pomocou AI/strojového prekladu (MT). Následne prešiel systematickou jazykovou a kontextovou QA voči anglickému originálu, technickými kontrolami a testovaním v hre. Kontextovo nejasné prípady zostávajú odložené. Správca projektu potvrdil funkčnosť Installer 1.4.1 a prekladu 0.07 priamo v ANIIMO. Pri príprave a opravách sa naďalej používa AI a ľudské schvaľovanie návrhov. Nie je pravda, že celý preklad je 100 % manuálne skontrolovaný.
 
 - **HIGH QA dokončená:** aplikovaných 4 386 schválených ID; odložené kontextové prípady zostávajú oddelené.
 - **MEDIUM QA dokončená:** aplikovaných 675 schválených skupín / 1 206 ID.
-- **Technická QA dokončená:** celý korpus 112 264 záznamov; samostatne opravené ID 2030994140.
+- **Technická QA dokončená:** celý korpus 112 308 záznamov; samostatne opravené ID 2030994140.
 - **LOW a NEEDS_CONTEXT pokračujú.** Nejasné návrhy sa neaplikovali.
 
-Dokončenie QA fázy neznamená úplné otestovanie všetkých dialógov, obrazoviek, herných mechaník ani serverových textov. Podrobnosti a hranice overenia sú v [QA pre 0.06](qa/RELEASE_0.06.md).
+Dokončenie QA fázy neznamená úplné otestovanie všetkých dialógov, obrazoviek, herných mechaník ani serverových textov. Podrobnosti a hranice overenia sú v [QA pre 0.07](qa/RELEASE_0.07.md).
 
 ## Inštalácia a aktualizácie
 
-Súbory verzie 0.06 sú v [GitHub Release 0.06](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/tag/v0.06). Bežnému hráčovi stačí EXE; dátový ZIP sťahuje updater automaticky.
+Súbory verzie 0.07 sú v [GitHub Release 0.07](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/tag/v0.07). Bežnému hráčovi stačí EXE; dátový ZIP sťahuje updater automaticky.
 
-Použi Installer **1.4**, ktorý posilňuje ochranu cieľových ciest. Starší EXE sa sám neaktualizuje: na získanie bezpečnostnej opravy si treba raz stiahnuť nový installer.
+Použi Installer **1.4.1**, ktorý posilňuje ochranu cieľových ciest. Pri prechode z 0.06 na nový build si jednorazovo stiahni EXE 1.4.1. Pôvodný Installer 1.4 nový herný základ nepodporuje. Zálohy zachovaj; overené pôvodné assety zo zálohy build-3634150 installer bezpečne rozpozná.
 
 1. Ukonči hru a spusti installer.
 2. Vyber priečinok podporovanej hry; pri čistej inštalácii použi **Nainštalovať slovenčinu** alebo ponúknutý online balík.
 3. Pri aktualizácii klikni na **Skontrolovať znova** a potom na **Aktualizovať na …**. Samotná kontrola nič neinštaluje.
 4. V hre nechaj jazyk **English**.
 
-Installer 1.4 a preklad majú nezávislé verzie. Ďalšie preklady 0.07, 0.08 atď. môže rovnaký installer sťahovať cez metadata bez nového EXE, pokiaľ zachovávajú dôveryhodný základ hry a povolené súbory. Nové funkcie, bezpečnostná logika alebo nový nekompatibilný základ hry môžu vyžadovať nový installer.
+Installer 1.4.1 a preklad majú nezávislé verzie. Ďalšie preklady 0.08, 0.09 atď. môže rovnaký installer sťahovať cez metadata bez nového EXE, pokiaľ zachovávajú dôveryhodný základ hry a povolené súbory. Nové funkcie, bezpečnostná logika alebo nový nekompatibilný základ hry môžu vyžadovať nový installer.
 
 Online zdroj je `https://raw.githubusercontent.com/XiuLe-cloud/aniimo-slovencina/main/version.json`. Feed určuje verziu prekladu, zostavu, URL a SHA-256 dátového ZIPu. Installer overuje tieto údaje aj manifest a hashe jednotlivých súborov. ZIP neobsahuje spúšťané aktualizačné skripty. Neprepisuj ručne súbory hry obsahom ZIPu.
 
@@ -51,7 +51,7 @@ SHA-256 overuje neporušenosť, nie dôveryhodnosť autora ani neprítomnosť š
 
 ## Kompatibilita
 
-Vydanie je zostavené nad overenými vstupnými súbormi zostavy **3634150**. Kompatibilita s inými alebo budúcimi zostavami nie je potvrdená. Aktuálnosť živej verzie hry sa z tohto čísla neodvodzuje. Zmena čísla zostavy vo feede sama osebe nestačí na bezpečnú podporu nových herných súborov.
+Vydanie je zostavené nad overenými vstupnými súbormi zostavy **3668494**. Kompatibilita s inými alebo budúcimi zostavami nie je potvrdená. Aktuálnosť živej verzie hry sa z tohto čísla neodvodzuje. Zmena čísla zostavy vo feede sama osebe nestačí na bezpečnú podporu nových herných súborov.
 
 ## Hlásenie chýb
 

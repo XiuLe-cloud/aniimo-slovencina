@@ -1,11 +1,11 @@
 {
-  "translation_version": "0.06",
-  "game_build": "3634150",
-  "package_url": "https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/v0.06/Aniimo-Slovencina-0.06.zip",
-  "sha256": "013cb302e3f0c9a84b77b39826738207001619ec67d61b4ab541c8751bef0e31",
+  "translation_version": "0.07",
+  "game_build": "3668494",
+  "package_url": "https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/v0.07/Aniimo-Slovencina-0.07.zip",
+  "sha256": "7f06a6ae05b175ca28e51f7caca8f1292507774514be8c8d583a1e5568761e3a",
   "changelog": [
-    "5 593 schválených opráv; HIGH a MEDIUM QA dokončené, technická QA PASS.",
-    "Installer 1.4: posilnená ochrana cieľových ciest, záloh a obnovy.",
-    "Správca potvrdil funkčnosť v hre; LOW a NEEDS_CONTEXT pokračujú."
+    "Podpora ANIIMO build 3668494, 44 nových textov a kontrola 99 zmenených EN záznamov.",
+    "Installer 1.4.1: overené rozpoznanie pôvodnej zálohy pri migrácii z 0.06.",
+    "Schválené názvy Štádium Nova a Slnkom zaliaty hájik; 18 chránených prekladov zachovaných."
   ]
 }

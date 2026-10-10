@@ -1,3 +1,13 @@
+# Zmeny
+
+## 0.07 / Installer 1.4.1
+
+- Podpora buildu 3668494: 112 308 záznamov, 44 nových a 99 zmenených EN textov; 112 165 nezmenených slovenských prekladov zachovaných.
+- Zachovaných 18 chránených prekladov. Schválené názvy Štádium Nova a Slnkom zaliaty hájik; 9 nových kontextových ID zostáva na kontrolu v hre.
+- Installer 1.4.1 bezpečne overuje pôvodné zálohy build-3634150 pri migrácii. Zachované SHA-256, ochrany ciest, rollback a Restore English.
+- Online feed podporuje budúce kompatibilné lokalizačné balíky bez nového EXE. Zmena herného základu vyžaduje nové overenie.
+- Používateľ potvrdil funkčnosť v hre. LOW a NEEDS_CONTEXT pokračujú; nejde o úplne manuálne overený preklad.
+
 # Changelog
 
 ## Translation 0.06 / Installer 1.4 — 2026-10-05
