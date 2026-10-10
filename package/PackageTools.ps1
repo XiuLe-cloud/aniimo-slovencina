@@ -255,7 +255,7 @@ function Get-NewBackupPath([string]$GamePath) {
 }
 function Get-BackupPath([string]$GamePath) { return (Get-NewBackupPath $GamePath) }
 function Get-PreviousBackupPaths([string]$GamePath) {
-    return @((Join-Path ([IO.Path]::GetDirectoryName((Get-NewBackupPath $GamePath))) 'build-3629693'),(Join-Path ([IO.Path]::GetDirectoryName((Get-NewBackupPath $GamePath))) 'current'),(Join-Path $GamePath 'Aniimo-SK-zaloha'))
+    return @((Join-Path ([IO.Path]::GetDirectoryName((Get-NewBackupPath $GamePath))) 'build-3634150'),(Join-Path ([IO.Path]::GetDirectoryName((Get-NewBackupPath $GamePath))) 'build-3629693'),(Join-Path ([IO.Path]::GetDirectoryName((Get-NewBackupPath $GamePath))) 'current'),(Join-Path $GamePath 'Aniimo-SK-zaloha'))
 }
 function Archive-Backup([string]$Backup) {
     $parent = [IO.Path]::GetFullPath([IO.Path]::GetDirectoryName($Backup)).TrimEnd('\') + '\'
