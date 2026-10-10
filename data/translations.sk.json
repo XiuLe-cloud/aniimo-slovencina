@@ -1648,8 +1648,8 @@
     "translation": "Lie"
   },
   "1077986121": {
-    "source": "Random Carried Item",
-    "translation": "Náhodne prepravovaná položka"
+    "source": "Random Held Item",
+    "translation": "Náhodný nosený predmet"
   },
   "1077987216": {
     "source": "That’s likely... And it probably has powers we’re not even aware of.",
@@ -5184,8 +5184,8 @@
     "translation": "Lita"
   },
   "1087506467": {
-    "source": "If you don’t have enough of these materials, you can <style=Hint_BgD>reclaim new plots</style>. <style=Hint_BgD>Resources can also be found hidden among debris</style>.\nOf course... that’ll cost a little funding as well...",
-    "translation": "Ak nemáte dosť týchto materiálov, môžete <style=Hint_BgD>obnoviť nové pozemky</style>. <style=Hint_BgD>Zdroje možno nájsť aj skryté medzi troskami</style>.\nSamozrejme... že to bude stáť aj trochu financovania..."
+    "source": "If you don’t have enough of these materials, you can <style=Hint_BgD>cultivate new plots</style>. <style=Hint_BgD>Resources can also be found hidden among debris</style>.\nOf course... that’ll cost a little funding as well...",
+    "translation": "Ak nemáš dosť týchto materiálov, môžeš <style=Hint_BgD>obrobiť nové pozemky</style>. <style=Hint_BgD>Suroviny sa môžu skrývať aj medzi troskami</style>.\nSamozrejme... aj to bude niečo stáť..."
   },
   "1087532158": {
     "source": "Use Ultimate",
@@ -6074,6 +6074,10 @@
   "1090015205": {
     "source": "Defeat any Alpha or Omega as a team to earn 20 Affinity.",
     "translation": "Poraziť akúkoľvek Alfa alebo Omega ako tím zarobiť 20 Affinity."
+  },
+  "1090020906": {
+    "source": "Upload Logs",
+    "translation": "Odoslať protokoly"
   },
   "1090026394": {
     "source": "Lumin Crystal *60",
@@ -8272,8 +8276,8 @@
     "translation": "Po rozhovore s Litou o tréningu filozofie, Mám nejaké nové nápady I Musím prehodnotiť svoj rozkaz."
   },
   "1096106143": {
-    "source": "Aniimo Carried Item, an item treasured by a powerful Aniimo. When carried, it can help Aniimo enhance their Abilities.",
-    "translation": "Aniimo Unesená položka, vec, ktorú si cení mocný Aniimo. Keď sa nosí, môže pomôcť Aniimo zlepšiť ich schopnosti."
+    "source": "Aniimo Held Item, an item treasured by a powerful Aniimo. When held by Aniimo, it can help them enhance their Abilities.",
+    "translation": "Nosený predmet Aniimo, ktorý si cení mocný Aniimo. Keď ho Aniimo nosí, môže mu pomôcť posilniť schopnosti."
   },
   "1096107961": {
     "source": "Reading Notes",
@@ -9304,8 +9308,8 @@
     "translation": "Odomknúť pozemok 10"
   },
   "1098914568": {
-    "source": "Legendary Carried Item",
-    "translation": "Legendárny Carried Pt"
+    "source": "Legendary Held Item",
+    "translation": "Legendárny nosený predmet"
   },
   "1098923015": {
     "source": "Don't move! I'll clean and bandage your wound right now!",
@@ -12303,6 +12307,10 @@
     "source": "Place it in your Homeland to power facilities.",
     "translation": "Umiestnite ju do svojej vnútornej krajiny na elektrické zariadenia."
   },
+  "1106614039": {
+    "source": "The Glamour Star preliminaries are now open! Based on the current theme, choose the perfect Aniimo outfit and aim for a high score to become the brightest star!",
+    "translation": "Predkolo súťaže Glamour Star je otvorené! Vyber pre Aniimo dokonalý outfit podľa aktuálnej témy a získaj čo najvyššie skóre, aby sa stal najžiarivejšou hviezdou!"
+  },
   "1106618718": {
     "source": "...You really are hopeless, aren’t you?",
     "translation": "...Si naozaj beznádejný, však?"
@@ -12364,8 +12372,8 @@
     "translation": "Efekt: každý 45S, na náhodnom Pathfindere sa objaví bombové semeno. Po 5s, semeno pristane a vytvorí varovanie pred bombou. Po 2s, bomba exploduje a trvalo vytvára poškodenú zónu na zemi."
   },
   "1106711864": {
-    "source": "Aniimo Carried Item, an item treasured by a powerful Aniimo. When carried, it can help Aniimo enhance their Abilities.",
-    "translation": "Aniimo Unesená položka, vec, ktorú si cení mocný Aniimo. Keď sa nosí, môže pomôcť Aniimo zlepšiť ich schopnosti."
+    "source": "Aniimo Held Item, an item treasured by a powerful Aniimo. When held by Aniimo, it can help them enhance their Abilities.",
+    "translation": "Nosený predmet Aniimo, ktorý si cení mocný Aniimo. Keď ho Aniimo nosí, môže mu pomôcť posilniť schopnosti."
   },
   "1106725533": {
     "source": "DMG",
@@ -18296,8 +18304,8 @@
     "translation": "Drahý Pathfinder, máte nežiadané odmeny z predchádzajúcej akcie \"Vein Abundance.\" Poslali sme vám zodpovedajúce odmeny. Prosím, skontrolujte si poštu."
   },
   "1122699846": {
-    "source": "Rare Carried Item",
-    "translation": "Vzácna unesená položka"
+    "source": "Rare Held Item",
+    "translation": "Vzácny nosený predmet"
   },
   "1122702317": {
     "source": "Lumin Collection: Rumbling Stones",
@@ -18652,8 +18660,8 @@
     "translation": "Neporiadok (medená ruda)"
   },
   "1123697944": {
-    "source": "Yields <style=Hint_BgL>a large amount</style> of regional specialties, and Carried Items of up to <style=Q_5>Legendary</style> quality.",
-    "translation": "Výnosy <style=Hint_BgL>veľká suma</style> regionálnych špecialít a prenášaných položiek až do <style=Q_5>Legendárny</style> kvality."
+    "source": "Yields <style=Hint_BgL>a large amount</style> of regional specialties, and Held Items of up to <style=Q_5>Legendary</style> quality.",
+    "translation": "Poskytuje <style=Hint_BgL>veľké množstvo</style> regionálnych špecialít a nosené predmety až <style=Q_5>legendárnej</style> kvality."
   },
   "1123708493": {
     "source": "You got the egg",
@@ -18828,8 +18836,8 @@
     "translation": "Lie"
   },
   "1124189252": {
-    "source": "press to view [<style=Hint_BgL>Carried Items</style>]",
-    "translation": "tlačiť na zobrazenie [<style=Hint_BgL>Uznané položky</style>]"
+    "source": "press to view [<style=Hint_BgL>Held Items</style>]",
+    "translation": "stlačením zobrazíš [<style=Hint_BgL>Nosené predmety</style>]"
   },
   "1124193417": {
     "source": "Amidst the fluffy fur hides the essence of spring.",
@@ -21868,8 +21876,8 @@
     "translation": "Lie"
   },
   "1132087194": {
-    "source": "Network check complete",
-    "translation": "Kontrola siete dokončená"
+    "source": "Network diagnosis complete.",
+    "translation": "Diagnostika siete dokončená."
   },
   "1132108268": {
     "source": "Place it in your Home to make handicrafts.",
@@ -22936,8 +22944,8 @@
     "translation": "Prémiové zmiešané parfumy"
   },
   "1134796900": {
-    "source": "Aniimo Carried Item, an item treasured by a powerful Aniimo. When carried, it can help Aniimo enhance their Abilities.",
-    "translation": "Aniimo Unesená položka, vec, ktorú si cení mocný Aniimo. Keď sa nosí, môže pomôcť Aniimo zlepšiť ich schopnosti."
+    "source": "Aniimo Held Item, an item treasured by a powerful Aniimo. When held by Aniimo, it can help them enhance their Abilities.",
+    "translation": "Nosený predmet Aniimo, ktorý si cení mocný Aniimo. Keď ho Aniimo nosí, môže mu pomôcť posilniť schopnosti."
   },
   "1134799154": {
     "source": "Collect scattered Lumin energy",
@@ -25448,7 +25456,7 @@
     "translation": "Vnútorná vlasť - materiál predaj"
   },
   "1141300652": {
-    "source": "A patch of farmland that hasn’t been farmed yet, perfect for growing certain crops.",
+    "source": "A patch of farmland that hasn’t been cultivated yet, perfect for growing certain crops.",
     "translation": "Dosiaľ neobrobený kus pôdy vhodný na pestovanie vybraných plodín."
   },
   "1141321953": {
@@ -26978,6 +26986,10 @@
   "1145169975": {
     "source": "Fantine",
     "translation": "Fantine"
+  },
+  "1145174842": {
+    "source": "Winter Warmth",
+    "translation": "Zimné teplo"
   },
   "1145184397": {
     "source": "Me",
@@ -28763,6 +28775,10 @@
     "source": "Lightweave",
     "translation": "Tkanie svetla"
   },
+  "1150031041": {
+    "source": "Swim",
+    "translation": "Plávať"
+  },
   "1150037923": {
     "source": "Prismana Magmarex Egg",
     "translation": "Primana Magmarex Egg"
@@ -29360,8 +29376,8 @@
     "translation": "Výstupné číslo:"
   },
   "1151260372": {
-    "source": "Aniimo Carried Item, an item treasured by a powerful Aniimo. When carried, it can help Aniimo enhance their Abilities.",
-    "translation": "Aniimo Unesená položka, vec, ktorú si cení mocný Aniimo. Keď sa nosí, môže pomôcť Aniimo zlepšiť ich schopnosti."
+    "source": "Aniimo Held Item, an item treasured by a powerful Aniimo. When held by Aniimo, it can help them enhance their Abilities.",
+    "translation": "Nosený predmet Aniimo, ktorý si cení mocný Aniimo. Keď ho Aniimo nosí, môže mu pomôcť posilniť schopnosti."
   },
   "1151265955": {
     "source": "The Pomeggs have all grown up, but they still love getting together to chat and sing!",
@@ -31620,8 +31636,8 @@
     "translation": "<color=#81D67B>Objatie ■■ objatie ■■• objatie</color>"
   },
   "1156756809": {
-    "source": "How can you obtain <style=Hint_BgD>Cores</style> that enhance an Aniimo’s Held Item stats?",
-    "translation": "Ako môžete získať <style=Hint_BgD>Podpery</style> ktoré zvyšujú hladinu Aniimo- Vedené štatistiky položiek?"
+    "source": "How can you obtain <style=Hint_BgD>Cores</style> that enhance an Aniimo’s Held Item attributes?",
+    "translation": "Ako môžeš získať <style=Hint_BgD>jadrá</style>, ktoré zlepšujú atribúty noseného predmetu Aniimo?"
   },
   "1156763170": {
     "source": "Custom Marker",
@@ -46048,7 +46064,7 @@
     "translation": "Hrudník"
   },
   "1195499950": {
-    "source": "A patch of farmland that hasn’t been farmed yet, perfect for growing certain crops.",
+    "source": "A patch of farmland that hasn’t been cultivated yet, perfect for growing certain crops.",
     "translation": "Dosiaľ neobrobený kus pôdy vhodný na pestovanie vybraných plodín."
   },
   "1195523345": {
@@ -47018,6 +47034,10 @@
   "1198160719": {
     "source": "Fainted text (placeholder)",
     "translation": "Pomazaný text (placehold)"
+  },
+  "1198162648": {
+    "source": "1. Once the Event begins, Polaris Institute will announce the audition theme for Glamour Star.\n2. Pathfinders can choose suitable Aniimo and pair them with Accessories based on the current theme to complete event registration.\n3. The Institute will score participating Aniimo based on how well the Aniimo and Accessories match the theme.\n4. When a Pathfinder’s score reaches the required milestone, they can claim the corresponding reward.\n5. Each Glamour Star round can be entered multiple times, but each reward can only be claimed once and cannot be obtained repeatedly.",
+    "translation": "1. Po začatí podujatia inštitút Polaris oznámi tému kvalifikácie súťaže Glamour Star.\n2. Na prihlásenie do podujatia si môžu prieskumníci vybrať vhodných Aniimo a skombinovať ich s doplnkami podľa aktuálnej témy.\n3. Inštitút ohodnotí zúčastnených Aniimo podľa toho, ako dobre Aniimo a ich doplnky zodpovedajú téme.\n4. Keď skóre prieskumníka dosiahne požadovaný míľnik, môže si vyzdvihnúť príslušnú odmenu.\n5. Do každého kola súťaže Glamour Star sa možno zapojiť viackrát, ale každú odmenu možno získať iba raz."
   },
   "1198164259": {
     "source": "Hehe, of course! My teaching is famous at the Institute!\nEven the instructors say that once I finish my Nimbi research, I could easily become a lecturer there!",
@@ -50103,6 +50123,10 @@
     "source": "Silence...",
     "translation": "Ticho..."
   },
+  "1206283316": {
+    "source": "Insufficient currency",
+    "translation": "Nedostatok meny"
+  },
   "1206284155": {
     "source": "Huge Strawberry",
     "translation": "Obrovská jahoda"
@@ -50644,8 +50668,8 @@
     "translation": "Opusti jaskyňu"
   },
   "1207585861": {
-    "source": "Aniimo Carried Item, an item treasured by a powerful Aniimo. When carried, it can help Aniimo enhance their Abilities.",
-    "translation": "Aniimo Unesená položka, vec, ktorú si cení mocný Aniimo. Keď sa nosí, môže pomôcť Aniimo zlepšiť ich schopnosti."
+    "source": "Aniimo Held Item, an item treasured by a powerful Aniimo. When held by Aniimo, it can help them enhance their Abilities.",
+    "translation": "Nosený predmet Aniimo, ktorý si cení mocný Aniimo. Keď ho Aniimo nosí, môže mu pomôcť posilniť schopnosti."
   },
   "1207598770": {
     "source": "Dice Roll",
@@ -52812,7 +52836,7 @@
     "translation": "Twine s Aniimo, potom ťuknite na položku #kHud/SkillQ#z a podržte ju. Prepustenie do <style=Hint_BgL>spustiť požiarnu guľu na cieľ</style>.\nSpúšťam požiarne gule na <style=Hint_BgL>horľavé predmety, ako sú drevené truhlice a vinič</style> môže <style=Hint_BgL>zapálené</style> ich. Po úplnom spálení, budú <style=Hint_BgL>zmiznutie</style>.\n<style=Hint_BgL>Plamene alebo horiace predmety</style> môže <style=Hint_BgL>aktivovať obelisky požiarneho typu</style>."
   },
   "1213275846": {
-    "source": "A patch of farmland that hasn’t been farmed yet, perfect for growing certain crops.",
+    "source": "A patch of farmland that hasn’t been cultivated yet, perfect for growing certain crops.",
     "translation": "Dosiaľ neobrobený kus pôdy vhodný na pestovanie vybraných plodín."
   },
   "1213288301": {
@@ -58912,7 +58936,7 @@
     "translation": "Ponožky"
   },
   "1229044528": {
-    "source": "Establishes a contract between the Aniimo and its Carried Items to enhance the core skill.",
+    "source": "Establishes a contract between the Aniimo and its Held Items to enhance the core skill.",
     "translation": "Vytvorí puto medzi Aniimo a jeho nosenými predmetmi a posilní jeho hlavnú schopnosť."
   },
   "1229044818": {
@@ -59700,8 +59724,8 @@
     "translation": "Zbierajte prizmanskú formu Aniimo."
   },
   "1230995775": {
-    "source": "Umbral Flamerion",
-    "translation": "Umbral Flamerion"
+    "source": "Umbral Erlath",
+    "translation": "Umbral Erlath"
   },
   "1231000925": {
     "source": "Talk",
@@ -61454,6 +61478,10 @@
   "1235709836": {
     "source": "?(required)",
     "translation": "? (povinné)"
+  },
+  "1235720364": {
+    "source": "Ice",
+    "translation": "Ľad"
   },
   "1235728368": {
     "source": "Online",
@@ -71027,6 +71055,10 @@
     "source": "Placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder",
     "translation": "Miestom je miesto, kde sa nachádza miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto, miesto"
   },
+  "1260998194": {
+    "source": "The Glamour Star preliminaries are now open! Based on the current theme, choose the perfect Aniimo outfit and aim for a high score to become the brightest star!",
+    "translation": "Predkolo súťaže Glamour Star je otvorené! Vyber pre Aniimo dokonalý outfit podľa aktuálnej témy a získaj čo najvyššie skóre, aby sa stal najžiarivejšou hviezdou!"
+  },
   "1261000116": {
     "source": "Sesa",
     "translation": "Sesa"
@@ -72260,7 +72292,7 @@
     "translation": "Skutočné DMG"
   },
   "1264052346": {
-    "source": "The Branch can only be used in your own World.",
+    "source": "The Branch can only be used in your own world.",
     "translation": "Vetvu možno použiť iba vo vlastnom svete."
   },
   "1264053724": {
@@ -72756,7 +72788,7 @@
     "translation": "Nechaj to na mňa!"
   },
   "1265194228": {
-    "source": "A patch of farmland that hasn’t been farmed yet, perfect for growing certain crops.",
+    "source": "A patch of farmland that hasn’t been cultivated yet, perfect for growing certain crops.",
     "translation": "Dosiaľ neobrobený kus pôdy vhodný na pestovanie vybraných plodín."
   },
   "1265200486": {
@@ -73628,7 +73660,7 @@
     "translation": "Dr. Lewis"
   },
   "1267413290": {
-    "source": "A patch of farmland that hasn’t been farmed yet, perfect for growing certain crops.",
+    "source": "A patch of farmland that hasn’t been cultivated yet, perfect for growing certain crops.",
     "translation": "Dosiaľ neobrobený kus pôdy vhodný na pestovanie vybraných plodín."
   },
   "1267415165": {
@@ -74880,8 +74912,8 @@
     "translation": "V týchto dňoch sa niekedy zastavím v oblasti stánkov, aby som pomohol ľuďom fotiť. Všetci skončia ako \"chaotickí a chaotický,\" ale úplne jeden z druhu. Momenty ako tieto sú stále moje najobľúbenejšie!"
   },
   "1270374249": {
-    "source": "Equip Lunara or Helion with a <style=Hint_BgL>Pact Carried Item</style> to unlock unique effects and boost their core skills. Pact materials for these <link=\"appearHelp_211\"><color=#5090df><u>Carried Items</u></color></link> can be obtained by capturing Alpha Aniimo.",
-    "translation": "Equip Lunara alebo Helion s <style=Hint_BgL>Realizované položky paktu</style> odomknúť jedinečné efekty a posilniť ich základné zručnosti. Materiály pre pakty <link=\"appearHelp_211\"><color=#5090df><u>Uznané položky</u></color></link> možno získať zachytením Alfa Aniimo."
+    "source": "Equip Lunara or Helion with a <style=Hint_BgL>Pact Held Item</style> to unlock unique effects and boost their core skills. Pact materials for these <link=\"appearHelp_211\"><color=#5090df><u>Held Items</u></color></link> can be obtained by capturing Alpha Aniimo.",
+    "translation": "Vybav Lunara alebo Helion <style=Hint_BgL>noseným predmetom paktu</style>, aby sa odomkli jedinečné účinky a posilnili ich hlavné schopnosti. Materiály na pakt pre tieto <link=\"appearHelp_211\"><color=#5090df><u>nosené predmety</u></color></link> možno získať chytaním Alpha Aniimo."
   },
   "1270388583": {
     "source": "RV Lv. 4",
@@ -77020,8 +77052,8 @@
     "translation": "Čo je dôležitejšie ako moje farby...?"
   },
   "1276071897": {
-    "source": "Hmm, quite proficient. Holo-Battle Sim is an important way to obtain advanced Carried Items. Next question!",
-    "translation": "Hmm, celkom zručný. Holo-Battle Sim je dôležitý spôsob, ako získať pokročilé Carried položky. Ďalšia otázka!"
+    "source": "Hmm, quite proficient. Holo-Battle Sim is an important way to obtain advanced Held Items. Next question!",
+    "translation": "Hmm, celkom dobre sa v tom vyznáš. Holo-Battle Sim je dôležitým spôsobom získavania pokročilých nosených predmetov. Ďalšia otázka!"
   },
   "1276088372": {
     "source": "Defeat this Aniimo",
@@ -77150,6 +77182,10 @@
   "1276386646": {
     "source": "ATK",
     "translation": "ATK"
+  },
+  "1276393509": {
+    "source": "Water",
+    "translation": "Voda"
   },
   "1276394493": {
     "source": "Wow! That huge chandelier-like hat is just... perfect!",
@@ -83920,8 +83956,8 @@
     "translation": "Reklamácia Alpha porážka odmeňuje celkom 3 časy."
   },
   "1293518196": {
-    "source": "Aniimo Carried Item, an item treasured by a powerful Aniimo. When carried, it can help Aniimo enhance their Abilities.",
-    "translation": "Aniimo Unesená položka, vec, ktorú si cení mocný Aniimo. Keď sa nosí, môže pomôcť Aniimo zlepšiť ich schopnosti."
+    "source": "Aniimo Held Item, an item treasured by a powerful Aniimo. When held by Aniimo, it can help them enhance their Abilities.",
+    "translation": "Nosený predmet Aniimo, ktorý si cení mocný Aniimo. Keď ho Aniimo nosí, môže mu pomôcť posilniť schopnosti."
   },
   "1293520634": {
     "source": "Fire Interactions",
@@ -87944,8 +87980,8 @@
     "translation": "Umbrálna Ignitída"
   },
   "1303792618": {
-    "source": "Yields <style=Hint_BgL>a moderate amount</style> of regional specialties, and Carried Items of up to <style=Q_4>Epic</style> quality.",
-    "translation": "Výnosy <style=Hint_BgL>a mierna suma</style> regionálnych špecialít a prenášaných položiek až do <style=Q_4>Epic</style> kvality."
+    "source": "Yields <style=Hint_BgL>a moderate amount</style> of regional specialties, and Held Items of up to <style=Q_4>Epic</style> quality.",
+    "translation": "Poskytuje <style=Hint_BgL>stredné množstvo</style> regionálnych špecialít a nosené predmety až <style=Q_4>epickej</style> kvality."
   },
   "1303830797": {
     "source": "<style=Hint_BgL>Full Display</style>: All building materials and objects in the scene are shown.\n<style=Hint_BgL>Camera-Follow Hide</style>: Walls hide as the camera turns and moves.\n<style=Hint_BgL>Hide All Walls</style>: Walls above the current camera height are completely hidden.",
@@ -91964,8 +92000,8 @@
     "translation": "Hmph-yah!"
   },
   "1314030202": {
-    "source": "Carried Item Gem Craft Cost",
-    "translation": "Prenesený tovar Gem Craft Cost"
+    "source": "Held Item Gem Craft Cost",
+    "translation": "Náklady na výrobu drahokamu noseného predmetu"
   },
   "1314031551": {
     "source": "Me",
@@ -92332,8 +92368,8 @@
     "translation": "Záhadný box s vajcami - podpora"
   },
   "1314950773": {
-    "source": "Aniimo Carried Item, an item treasured by a powerful Aniimo. When carried, it can help Aniimo enhance their Abilities.",
-    "translation": "Aniimo Unesená položka, vec, ktorú si cení mocný Aniimo. Keď sa nosí, môže pomôcť Aniimo zlepšiť ich schopnosti."
+    "source": "Aniimo Held Item, an item treasured by a powerful Aniimo. When held by Aniimo, it can help them enhance their Abilities.",
+    "translation": "Nosený predmet Aniimo, ktorý si cení mocný Aniimo. Keď ho Aniimo nosí, môže mu pomôcť posilniť schopnosti."
   },
   "1314958982": {
     "source": "Chief Photographer",
@@ -99388,8 +99424,8 @@
     "translation": "Masívna, super-horúca bahenná guľa!"
   },
   "1333031189": {
-    "source": "Oh, right—one more important thing: <style=Hint_BgD>voxel coins appear every day</style>!\nAnd that’s not all—there are also some <style=Hint_BgD>musical light strips</style> on the city streets, and if you step on them in the right order, voxel coins seem to pop up there too.",
-    "translation": "Oh, správne a ešte dôležitejšia vec: <style=Hint_BgD>voxel mince sa objavujú každý deň</style>!\nA to nie je všetko, ale sú aj niektoré <style=Hint_BgD>hudobné svetelné pásy</style> Na uliciach mesta, a ak na ne stúpite v správnom poradí, voxel mince sa zdá, že tam hore tiež."
+    "source": "Oh, and there's one more important thing to tell you—there are some <style=Hint_BgD>musical light strips</style> on the city streets, and if you step on them in the right order, voxel coins seem to pop up there too.",
+    "translation": "Ach, ešte ti musím povedať niečo dôležité — na uliciach mesta sú <style=Hint_BgD>hudobné svetelné pásy</style>. Ak na ne stúpiš v správnom poradí, zrejme sa tam objavia aj voxelové mince."
   },
   "1333040691": {
     "source": "00:00",
@@ -104956,7 +104992,7 @@
     "translation": "Páni, tvoje Aniimo je naozaj úžasné!"
   },
   "1348149672": {
-    "source": "A patch of farmland that hasn’t been farmed yet, perfect for growing certain crops.",
+    "source": "A patch of farmland that hasn’t been cultivated yet, perfect for growing certain crops.",
     "translation": "Dosiaľ neobrobený kus pôdy vhodný na pestovanie vybraných plodín."
   },
   "1348157125": {
@@ -114092,8 +114128,8 @@
     "translation": "Sherro"
   },
   "1371785764": {
-    "source": "Scan results Saved to:\n{0}",
-    "translation": "Výsledky skenovania Uložené na:\n{0}"
+    "source": "Diagnosis results saved to:\n{0}",
+    "translation": "Výsledky diagnostiky uložené do:\n{0}"
   },
   "1371800615": {
     "source": "Talk",
@@ -119068,8 +119104,8 @@
     "translation": "Veľmi pôsobivé. Gratulujem, #playerName#.\nOddnes ste oficiálne <style=Hint_BgD>Student II. stupňa</style>."
   },
   "1385570748": {
-    "source": "Carried Item Double Drop Event Description",
-    "translation": "Prenesený tovar Double Drop Event Popis"
+    "source": "Held Item Double Drop Event Description",
+    "translation": "Popis podujatia s dvojnásobným ziskom nosených predmetov"
   },
   "1385579930": {
     "source": "Eye of Potential",
@@ -123751,6 +123787,10 @@
     "source": "The Sword of Pawney is a symbol of courage needed for the naturally timid Helmut to grow into Pawney, containing the power of the previous generation of Pawney, and is also the Key to unlocking the Wealth left behind by Pawney.",
     "translation": "Meč z Pawney je symbolom odvahy potrebnej pre prirodzene plachý Helmut, aby vyrástol do Pawney, obsahujúci silu predchádzajúcej generácie Pawney, a je tiež kľúčom k odomknutiu Boha zanechaný Pawney."
   },
+  "1397639221": {
+    "source": "1. Once the Event begins, Polaris Institute will announce the audition theme for Glamour Star.\n2. Pathfinders can choose suitable Aniimo and pair them with Accessories based on the current theme to complete event registration.\n3. The Institute will score participating Aniimo based on how well the Aniimo and Accessories match the theme.\n4. When a Pathfinder’s score reaches the required milestone, they can claim the corresponding reward.\n5. Each Glamour Star round can be entered multiple times, but each reward can only be claimed once and cannot be obtained repeatedly.",
+    "translation": "1. Po začatí podujatia inštitút Polaris oznámi tému kvalifikácie súťaže Glamour Star.\n2. Na prihlásenie do podujatia si môžu prieskumníci vybrať vhodných Aniimo a skombinovať ich s doplnkami podľa aktuálnej témy.\n3. Inštitút ohodnotí zúčastnených Aniimo podľa toho, ako dobre Aniimo a ich doplnky zodpovedajú téme.\n4. Keď skóre prieskumníka dosiahne požadovaný míľnik, môže si vyzdvihnúť príslušnú odmenu.\n5. Do každého kola súťaže Glamour Star sa možno zapojiť viackrát, ale každú odmenu možno získať iba raz."
+  },
   "1397639601": {
     "source": "Haha! Nope! Not there!",
     "translation": "Haha! Nie! Nie tam!"
@@ -124339,6 +124379,10 @@
     "source": "...Thanks for caring...",
     "translation": "...Vďaka za starostlivosť..."
   },
+  "1399285160": {
+    "source": "1. Once the Event begins, Polaris Institute will announce the audition theme for Glamour Star.\n2. Pathfinders can choose suitable Aniimo and pair them with Accessories based on the current theme to complete event registration.\n3. The Institute will score participating Aniimo based on how well the Aniimo and Accessories match the theme.\n4. When a Pathfinder’s score reaches the required milestone, they can claim the corresponding reward.\n5. Each Glamour Star round can be entered multiple times, but each reward can only be claimed once and cannot be obtained repeatedly.",
+    "translation": "1. Po začatí podujatia inštitút Polaris oznámi tému kvalifikácie súťaže Glamour Star.\n2. Na prihlásenie do podujatia si môžu prieskumníci vybrať vhodných Aniimo a skombinovať ich s doplnkami podľa aktuálnej témy.\n3. Inštitút ohodnotí zúčastnených Aniimo podľa toho, ako dobre Aniimo a ich doplnky zodpovedajú téme.\n4. Keď skóre prieskumníka dosiahne požadovaný míľnik, môže si vyzdvihnúť príslušnú odmenu.\n5. Do každého kola súťaže Glamour Star sa možno zapojiť viackrát, ale každú odmenu možno získať iba raz."
+  },
   "1399288180": {
     "source": "Why won’t you bloom?",
     "translation": "Prečo si kvitla?"
@@ -124396,7 +124440,7 @@
     "translation": "<style=Hint_BgL>Mutované plodiny</style> zriedka vyrábaná poľnohospodárskou pôdou vo vašom dome. Môžu byť zbierané, nadané priateľom alebo predávané v príslušnom obchode za vyššiu cenu."
   },
   "1399493793": {
-    "source": "A patch of farmland that hasn’t been farmed yet, perfect for growing certain crops.",
+    "source": "A patch of farmland that hasn’t been cultivated yet, perfect for growing certain crops.",
     "translation": "Dosiaľ neobrobený kus pôdy vhodný na pestovanie vybraných plodín."
   },
   "1399499174": {
@@ -125660,8 +125704,8 @@
     "translation": "Líčenie očí 25"
   },
   "1402961535": {
-    "source": "Yields <style=Hint_BgL>a small amount</style> of regional specialties, and Carried Items of up to <style=Q_3>Rare</style> quality.",
-    "translation": "Výnosy <style=Hint_BgL>a malá suma</style> regionálnych špecialít a prenášaných položiek až do <style=Q_3>Zriedkavé</style> kvality."
+    "source": "Yields <style=Hint_BgL>a small amount</style> of regional specialties, and Held Items of up to <style=Q_3>Rare</style> quality.",
+    "translation": "Poskytuje <style=Hint_BgL>malé množstvo</style> regionálnych špecialít a nosené predmety až <style=Q_3>vzácnej</style> kvality."
   },
   "1402993126": {
     "source": "Gemstone Dust",
@@ -127387,6 +127431,10 @@
     "source": "Dr. Lewis",
     "translation": "Dr. Lewis"
   },
+  "1408235732": {
+    "source": "Failed to initialize log upload",
+    "translation": "Nepodarilo sa inicializovať odosielanie protokolov"
+  },
   "1408241399": {
     "source": "You actually did it, Pathfinder! You’re so amazing!",
     "translation": "Dokázal si to, Pathfinder! Si úžasný!"
@@ -127688,8 +127736,8 @@
     "translation": "Attack zosilňovač čip, ktorý mierne zvyšuje poškodenie, aby každý hit bodnutie."
   },
   "1408867797": {
-    "source": "Oh! I recognize this. It should be a <style=Hint_BgD>Carried Item</style>.\nWith energy this strong, it must be a high-grade one too. Herman, take a look.",
-    "translation": "Oh! Spoznávam to. Mal by to byť <style=Hint_BgD>Prenesený predmet</style>.\nS takouto silnou energiou to musí byť tiež vysoko kvalitné. Herman, pozri sa."
+    "source": "Oh! I recognize this. It should be a <style=Hint_BgD>Held Item</style>.\nWith energy this strong, it must be a high-grade one too. Herman, take a look.",
+    "translation": "Ach! Toto poznám. Mal by to byť <style=Hint_BgD>nosený predmet</style>.\nPri takej silnej energii musí byť aj vysokej kvality. Herman, pozri sa."
   },
   "1408872214": {
     "source": "Frizzy Young Bolty",
@@ -129628,8 +129676,8 @@
     "translation": "Rozsudok Búrka"
   },
   "1413831905": {
-    "source": "press to view [<style=Hint_BgL>Carried Items</style>]",
-    "translation": "tlačiť na zobrazenie [<style=Hint_BgL>Uznané položky</style>]"
+    "source": "press to view [<style=Hint_BgL>Held Items</style>]",
+    "translation": "stlačením zobrazíš [<style=Hint_BgL>Nosené predmety</style>]"
   },
   "1413849291": {
     "source": "Me",
@@ -139824,8 +139872,8 @@
     "translation": "A posledná Icho bola najsilnejšia Icho zo všetkých Ichos. Stála medzi hrebeňmi, brala každého vyzývateľa a nikdy neprehrala ani raz."
   },
   "1441212908": {
-    "source": "Yields <style=Hint_BgL>a small amount</style> of regional specialties, and Carried Items of up to <style=Q_3>Rare</style> quality.",
-    "translation": "Výnosy <style=Hint_BgL>a malá suma</style> regionálnych špecialít a prenášaných položiek až do <style=Q_3>Zriedkavé</style> kvality."
+    "source": "Yields <style=Hint_BgL>a small amount</style> of regional specialties, and Held Items of up to <style=Q_3>Rare</style> quality.",
+    "translation": "Poskytuje <style=Hint_BgL>malé množstvo</style> regionálnych špecialít a nosené predmety až <style=Q_3>vzácnej</style> kvality."
   },
   "1441225496": {
     "source": "Character Accessory",
@@ -146984,8 +147032,8 @@
     "translation": "Zlaté prianie"
   },
   "1459578008": {
-    "source": "Movemennt",
-    "translation": "Presunúť"
+    "source": "Movement",
+    "translation": "Pohyb"
   },
   "1459583411": {
     "source": "Used to build flooring in your Home.",
@@ -148748,8 +148796,8 @@
     "translation": "Teraz, keď rušné dobrodružstvo prišlo na prestávku, prečo si neoddýchnuť pod hviezdnym svetlom s vaším Aniimo?"
   },
   "1464075642": {
-    "source": "Carried Item Item ID",
-    "translation": "Prevedená položka ID položky"
+    "source": "Held Item Item ID",
+    "translation": "ID noseného predmetu"
   },
   "1464079661": {
     "source": "Having too many rare Aniimo and living under everyone’s jealous gaze all day... is its own kind of trouble.",
@@ -151552,7 +151600,7 @@
     "translation": "Gombík"
   },
   "1471458402": {
-    "source": "Diagnostics in progress. Please do not trigger again.",
+    "source": "Diagnosis in progress. Please don’t start it again.",
     "translation": "Prebieha diagnostika. Nespúšťaj ju znova."
   },
   "1471462989": {
@@ -151908,8 +151956,8 @@
     "translation": "Niektoré zariadenia v meste zažívajú poruchy z neznámych dôvodov. Presunúť kusy opraviť napadnuté holografické zariadenia."
   },
   "1472375499": {
-    "source": "Yields <style=Hint_BgL>a large amount</style> of regional specialties, and Carried Items of up to <style=Q_5>Legendary</style> quality.",
-    "translation": "Výnosy <style=Hint_BgL>veľká suma</style> regionálnych špecialít a prenášaných položiek až do <style=Q_5>Legendárny</style> kvality."
+    "source": "Yields <style=Hint_BgL>a large amount</style> of regional specialties, and Held Items of up to <style=Q_5>Legendary</style> quality.",
+    "translation": "Poskytuje <style=Hint_BgL>veľké množstvo</style> regionálnych špecialít a nosené predmety až <style=Q_5>legendárnej</style> kvality."
   },
   "1472380057": {
     "source": "Aniimo Album",
@@ -153936,8 +153984,8 @@
     "translation": "Existuje veľa krásnych bielych kvetov tam, ale cesta je zvláštna, môžete ľahko stratiť. Trvalo mi večnosť nájsť cestu von! "
   },
   "1478032544": {
-    "source": "Press #kCommon/GamepadConfirm#z to switch to the [<style=Hint_BgL>Carried Item</style>] screen.",
-    "translation": "Stlačte #kCommon/GamepadConfirm#z prepnúť na [<style=Hint_BgL>Prenesený predmet</style>] obrazovka."
+    "source": "Press #kCommon/GamepadConfirm#z to switch to the [<style=Hint_BgL>Held Item</style>] screen.",
+    "translation": "Stlačením #kCommon/GamepadConfirm#z prejdi na obrazovku [<style=Hint_BgL>Nosený predmet</style>]."
   },
   "1478046970": {
     "source": "Trigger Type ID (-1 for All)",
@@ -155814,6 +155862,10 @@
   "1483220680": {
     "source": "RV Lv. 4",
     "translation": "Karavan – úroveň 4"
+  },
+  "1483220973": {
+    "source": "Benevolence Super Armor",
+    "translation": "Super Armor schopnosti Benevolence"
   },
   "1483247229": {
     "source": "A blind box has been sent to you. Press to open it and claim your reward!\nA new week is waiting—good luck!",
@@ -160596,8 +160648,8 @@
     "translation": "To je pravda, je tu naozaj šanca stretnúť sa prizmanskej formy pri love vo veľkých množstvách počas Aniimo Skupinový vzhľad.\nAle mala by existovať viac než jedna odpoveď. Pozrite sa na ďalšie možnosti."
   },
   "1495493003": {
-    "source": "Yields <style=Hint_BgL>a large amount</style> of regional specialties, and Carried Items of up to <style=Q_5>Legendary</style> quality.",
-    "translation": "Výnosy <style=Hint_BgL>veľká suma</style> regionálnych špecialít a prenášaných položiek až do <style=Q_5>Legendárny</style> kvality."
+    "source": "Yields <style=Hint_BgL>a large amount</style> of regional specialties, and Held Items of up to <style=Q_5>Legendary</style> quality.",
+    "translation": "Poskytuje <style=Hint_BgL>veľké množstvo</style> regionálnych špecialít a nosené predmety až <style=Q_5>legendárnej</style> kvality."
   },
   "1495498833": {
     "source": "This Aniimo has no held item equipped, so runes cannot be equipped.",
@@ -163116,8 +163168,8 @@
     "translation": "Náhodne generovať monštrá a bitky"
   },
   "1502325437": {
-    "source": "Aniimo are the best companions—walking side by side, growing together.\n\nEncounter Aniimo and embark on the path of Twining! Catch and hatch them, then train and star them up. Equip your Aniimo with Carried Items and Runes to enhance their abilities. You will work side by side with the Aniimo destined for you, understanding each other deeply.",
-    "translation": "Aniimo sú najlepší spoločníci chôdze bok po boku, rastie spolu.\n\nStretnutie Aniimo a vydať sa na cestu Twining! Chytiť a vyliahnuť, potom trénovať a hviezda je hore. Vybavte si Aniimo s prenášanými predmetmi a runami, aby zlepšili svoje schopnosti. Budete pracovať bok po boku s Aniimo predurčené pre vás, aby ste sa navzájom chápali."
+    "source": "Aniimo are the best companions—walking side by side, growing together.\n\nEncounter Aniimo and embark on the path of Twining! Catch and hatch them, then train and star them up. Equip your Aniimo with Held Items and Runes to enhance their abilities. You will work side by side with the Aniimo destined for you, understanding each other deeply.",
+    "translation": "Aniimo sú najlepší spoločníci — kráčajú s tebou bok po boku a spoločne rastiete.\n\nStretávaj Aniimo a vydaj sa na cestu Twining! Chytaj ich a liahni ich z vajec, potom ich trénuj a zvyšuj ich hviezdičkovú úroveň. Vybav svojich Aniimo nosenými predmetmi a runami, aby si posilnil ich schopnosti. S Aniimo, ktorý ti je súdený, budete spolupracovať bok po boku a hlboko si rozumieť."
   },
   "1502335675": {
     "source": "Very well, in that case, the Academy respects your choice.\nFarewell, #playerName#. I hope you and your Aniimo can live the life you want.",
@@ -164168,8 +164220,8 @@
     "translation": "Tento týždeň sa dosiahol Voxel Coin kvóty."
   },
   "1505155420": {
-    "source": "Failed to save scan results. Please check the log.",
-    "translation": "Nepodarilo sa uložiť výsledky skenovania. Prosím, skontrolujte denník."
+    "source": "Failed to save the diagnosis results. Please check the log.",
+    "translation": "Nepodarilo sa uložiť výsledky diagnostiky. Skontroluj protokol."
   },
   "1505166855": {
     "source": "Recommended Element",
@@ -169686,6 +169738,10 @@
   "1519734584": {
     "source": "Aniimo Management unlocked",
     "translation": "Aniimo Liečba odomknutá"
+  },
+  "1519738927": {
+    "source": "Shield of Benevolence",
+    "translation": "Štít Benevolence"
   },
   "1519742148": {
     "source": "H-how could you defeat my dragon legion...?\nThis isn’t right. Dragons are meant to be unbeatable...",
@@ -175552,8 +175608,8 @@
     "translation": "Otvorte panel GM klienta Pathfinder"
   },
   "1535078881": {
-    "source": "Open Menu Wheel",
-    "translation": "Otvoriť kruhovú ponuku"
+    "source": "Show Menu Wheel",
+    "translation": "Zobraziť kruhovú ponuku"
   },
   "1535087912": {
     "source": "Lighting",
@@ -178026,6 +178082,10 @@
   "1541536199": {
     "source": "The boss is casting an <color=#D89C28>[Ultimate]</color>. Trigger <color=#D89C28>BREAK</color> quickly!",
     "translation": "Šéf má <color=#D89C28>[Ultimate]</color>. Spustenie <color=#D89C28>BREAK</color> Rýchlo!"
+  },
+  "1541540945": {
+    "source": "Glamour Star",
+    "translation": "Glamour Star"
   },
   "1541565273": {
     "source": "Pathfinder Skills",
@@ -182612,8 +182672,8 @@
     "translation": "Požehnanie"
   },
   "1553313007": {
-    "source": "Reclaim",
-    "translation": "Vrátenie pomoci"
+    "source": "Cultivate",
+    "translation": "Obrobiť pôdu"
   },
   "1553313251": {
     "source": "Events",
@@ -186167,6 +186227,10 @@
     "source": "The kind that would’ve followed the Principal everywhere, even into the bathroom...",
     "translation": "Také, ktoré by nasledovali riaditeľa všade, dokonca aj do kúpeľne..."
   },
+  "1562292396": {
+    "source": "Upload Logs",
+    "translation": "Odoslať protokoly"
+  },
   "1562305734": {
     "source": "Hairstyle",
     "translation": "Účes"
@@ -189536,7 +189600,7 @@
     "translation": "Správa Aniimo"
   },
   "1571249387": {
-    "source": "A patch of farmland that hasn’t been farmed yet, perfect for growing certain crops.",
+    "source": "A patch of farmland that hasn’t been cultivated yet, perfect for growing certain crops.",
     "translation": "Dosiaľ neobrobený kus pôdy vhodný na pestovanie vybraných plodín."
   },
   "1571254039": {
@@ -193507,6 +193571,10 @@
     "source": "Rules",
     "translation": "Pravidlá"
   },
+  "1581724593": {
+    "source": "Nova Stage",
+    "translation": "Štádium Nova"
+  },
   "1581787988": {
     "source": "Nova",
     "translation": "Nova"
@@ -194496,8 +194564,8 @@
     "translation": "Uvoľnenie Aniimo"
   },
   "1584438505": {
-    "source": "View Carried Item",
-    "translation": "Zobraziť odovzdanú položku"
+    "source": "View Held Item",
+    "translation": "Zobraziť nosený predmet"
   },
   "1584464528": {
     "source": "Warm orange-brown wallpaper that softens indoor lighting and suits all decorating layouts.",
@@ -196792,8 +196860,8 @@
     "translation": "Shelly"
   },
   "1590444624": {
-    "source": "Obtained from Carried Item Gem Craft",
-    "translation": "Získané z unesenej položky Gem Craft"
+    "source": "Obtained from Held Item Gem Craft",
+    "translation": "Získava sa výrobou drahokamov nosených predmetov"
   },
   "1590465835": {
     "source": "I picked this gift just for you!",
@@ -198852,8 +198920,8 @@
     "translation": "Neuveriteľné trávnaté vajce"
   },
   "1595938237": {
-    "source": "Yields <style=Hint_BgL>a moderate amount</style> of regional specialties, and Carried Items of up to <style=Q_4>Epic</style> quality.",
-    "translation": "Výnosy <style=Hint_BgL>a mierna suma</style> regionálnych špecialít a prenášaných položiek až do <style=Q_4>Epic</style> kvality."
+    "source": "Yields <style=Hint_BgL>a moderate amount</style> of regional specialties, and Held Items of up to <style=Q_4>Epic</style> quality.",
+    "translation": "Poskytuje <style=Hint_BgL>stredné množstvo</style> regionálnych špecialít a nosené predmety až <style=Q_4>epickej</style> kvality."
   },
   "1595954907": {
     "source": "Full Spirit: after maxing Spirit, distribute evenly",
@@ -201328,8 +201396,8 @@
     "translation": "BINI #9"
   },
   "1602561032": {
-    "source": "Activate the Gamma Stage effect on any Carried Item",
-    "translation": "Aktivovať Gama Stage efekt na každú unesenú položku"
+    "source": "Activate the Gamma Stage effect on any Held Item",
+    "translation": "Aktivuj účinok Gamma Stage na ľubovoľnom nosenom predmete"
   },
   "1602568462": {
     "source": "Waaah!!! Waaah!!! Where are you? Come out already!",
@@ -202867,6 +202935,10 @@
     "source": "Carefree",
     "translation": "Bezstarostný"
   },
+  "1606517023": {
+    "source": "Stealth Hunt",
+    "translation": "Nenápadný lov"
+  },
   "1606568496": {
     "source": "I can smell it! The scent of sorrow is almost gone, and look—they’re peeking at us!",
     "translation": "Cítim to! Vôňa smútku je takmer preč, a pozrite sa na nás pozerajú!"
@@ -203736,7 +203808,7 @@
     "translation": "Zobraziť mapu"
   },
   "1608789823": {
-    "source": "Establishes a contract between the Aniimo and its Carried Items to enhance the core skill.",
+    "source": "Establishes a contract between the Aniimo and its Held Items to enhance the core skill.",
     "translation": "Vytvorí puto medzi Aniimo a jeho nosenými predmetmi a posilní jeho hlavnú schopnosť."
   },
   "1608800725": {
@@ -206248,8 +206320,8 @@
     "translation": "Dewdrop Crystal preplnený emóciami Aniimo z rodiny Shelly. Niektorí hovoria, že prináša ich požehnania a dedičstvo."
   },
   "1615350146": {
-    "source": "Add Carried Item",
-    "translation": "Pridať odovzdanú položku"
+    "source": "Add Held Item",
+    "translation": "Pridať nosený predmet"
   },
   "1615357889": {
     "source": "Use to unlock a Profile.",
@@ -212051,6 +212123,10 @@
     "source": "Left Tail",
     "translation": "Ľavý chvost"
   },
+  "1630468949": {
+    "source": "1. Once the Event begins, Polaris Institute will announce the audition theme for Glamour Star.\n2. Pathfinders can choose suitable Aniimo and pair them with Accessories based on the current theme to complete event registration.\n3. The Institute will score participating Aniimo based on how well the Aniimo and Accessories match the theme.\n4. When a Pathfinder’s score reaches the required milestone, they can claim the corresponding reward.\n5. Each Glamour Star round can be entered multiple times, but each reward can only be claimed once and cannot be obtained repeatedly.",
+    "translation": "1. Po začatí podujatia inštitút Polaris oznámi tému kvalifikácie súťaže Glamour Star.\n2. Na prihlásenie do podujatia si môžu prieskumníci vybrať vhodných Aniimo a skombinovať ich s doplnkami podľa aktuálnej témy.\n3. Inštitút ohodnotí zúčastnených Aniimo podľa toho, ako dobre Aniimo a ich doplnky zodpovedajú téme.\n4. Keď skóre prieskumníka dosiahne požadovaný míľnik, môže si vyzdvihnúť príslušnú odmenu.\n5. Do každého kola súťaže Glamour Star sa možno zapojiť viackrát, ale každú odmenu možno získať iba raz."
+  },
   "1630471581": {
     "source": "Sunia",
     "translation": "Sunia"
@@ -216099,6 +216175,10 @@
     "source": "Premium CD Rune",
     "translation": "Premium CD rune"
   },
+  "1640983375": {
+    "source": "Instinctive",
+    "translation": "Inštinktívny"
+  },
   "1640994332": {
     "source": "Dig",
     "translation": "Vykopať"
@@ -217360,8 +217440,8 @@
     "translation": "Stavebný blok na najrôznejšie stavby. Farba: koralová ružová."
   },
   "1644126521": {
-    "source": "Aniimo bring back Carried Items of random quality on each trip. The <style=Hint_BgL>longer</style> the trip, the <style=Hint_BgL>higher</style> the chance of bringing back higher-quality Carried Items.",
-    "translation": "Aniimo Priniesť späť Carried Položky náhodnej kvality na každej ceste. • <style=Hint_BgL>dlhšie</style> výlet, <style=Hint_BgL>vyššia</style> možnosť priviesť späť kvalitnejšie Carried items."
+    "source": "Aniimo bring back Held Items of random quality on each trip. The <style=Hint_BgL>longer</style> the trip, the <style=Hint_BgL>higher</style> the chance of bringing back higher-quality Held Items.",
+    "translation": "Aniimo prinášajú z každej výpravy nosené predmety náhodnej kvality. Čím je výprava <style=Hint_BgL>dlhšia</style>, tým je <style=Hint_BgL>vyššia</style> šanca, že prinesú nosené predmety vyššej kvality."
   },
   "1644129664": {
     "source": "Free-Climbing",
@@ -218260,8 +218340,8 @@
     "translation": "Pat Head"
   },
   "1646490061": {
-    "source": "Please select a server before checking.",
-    "translation": "Prosím vyberte server pred kontrolou."
+    "source": "Please select a server first.",
+    "translation": "Najprv vyber server."
   },
   "1646490728": {
     "source": "Me",
@@ -223588,7 +223668,7 @@
     "translation": "Zmiešaj sa s čeľusťou strážiac poklad."
   },
   "1660265296": {
-    "source": "A patch of farmland that hasn’t been farmed yet, perfect for growing certain crops.",
+    "source": "A patch of farmland that hasn’t been cultivated yet, perfect for growing certain crops.",
     "translation": "Dosiaľ neobrobený kus pôdy vhodný na pestovanie vybraných plodín."
   },
   "1660286405": {
@@ -226472,8 +226552,8 @@
     "translation": "Aniipod (držiteľ miesta)"
   },
   "1667942774": {
-    "source": "Epic Carried Item. When equipped by an Aniimo, it enhances the Aniimo’s abilities.",
-    "translation": "Epic Carried Pt. Ak je vybavený Aniimo, zvyšuje Aniimo Má schopnosti."
+    "source": "Epic Held Item. When equipped by an Aniimo, it enhances the Aniimo’s abilities.",
+    "translation": "Epický nosený predmet. Keď si ho Aniimo vybaví, posilní jeho schopnosti."
   },
   "1667968476": {
     "source": "Prismana Form",
@@ -228852,8 +228932,8 @@
     "translation": "Lie"
   },
   "1674181138": {
-    "source": "Umbral Budclaw",
-    "translation": "Umbral Budclaw"
+    "source": "Umbral Erlath",
+    "translation": "Umbral Erlath"
   },
   "1674198576": {
     "source": "Let’s go!",
@@ -228964,8 +229044,8 @@
     "translation": "Alfa získava <style=Hint_BgL><customRichText(getConfigData,extra_random_buff, 3023000,param0)>%</style> BREAK účinnosť pri transformácii."
   },
   "1674512367": {
-    "source": "A daily-limited supply pack. Open to receive the following rewards:<style=Q_3>Safaris x250</style>, <style=Q_4>Breezy Plains Dewdrop Crystal x10</style>, <style=Q_3>Star Dust x3</style>, <style=Q_4>Star Sand x1</style>, <style=Q_3>Basic Carried Item Core x4</style>.",
-    "translation": "Denne obmedzený zásobovací balík. Otvorené na získanie týchto odmien:<style=Q_3>Safaris x250</style>, <style=Q_4>Breezy Plains Dewdrop Crystal x10</style>, <style=Q_3>Star Prach x3</style>, <style=Q_4>Star Sand x1</style>, <style=Q_3>Basic Carried Položka Core x4</style>."
+    "source": "A daily-limited supply pack. Open to receive the following rewards:<style=Q_3>Safaris x250</style>, <style=Q_4>Breezy Plains Dewdrop Crystal x10</style>, <style=Q_3>Star Dust x3</style>, <style=Q_4>Star Sand x1</style>, <style=Q_3>Basic Held Item Core x4</style>.",
+    "translation": "Zásobovací balík s denným limitom. Otvor ho a získaj tieto odmeny:<style=Q_3>Safaris x250</style>, <style=Q_4>Breezy Plains Dewdrop Crystal x10</style>, <style=Q_3>Star Dust x3</style>, <style=Q_4>Star Sand x1</style>, <style=Q_3>základné jadro noseného predmetu x4</style>."
   },
   "1674527058": {
     "source": "Used to build flooring in your Home.",
@@ -230174,6 +230254,10 @@
   "1677953507": {
     "source": "Sealing Aniipod",
     "translation": "Uzatváranie aniipod"
+  },
+  "1677961271": {
+    "source": "Glamour Star",
+    "translation": "Glamour Star"
   },
   "1677964784": {
     "source": "Home Season Event",
@@ -237280,7 +237364,7 @@
     "translation": "• <color=#d89c28>Lumin Amber</color> tvoril v strede rieky, to bude wontemt byť jednoduché získať."
   },
   "1696516717": {
-    "source": "A patch of farmland that hasn’t been farmed yet, perfect for growing certain crops.",
+    "source": "A patch of farmland that hasn’t been cultivated yet, perfect for growing certain crops.",
     "translation": "Dosiaľ neobrobený kus pôdy vhodný na pestovanie vybraných plodín."
   },
   "1696519553": {
@@ -238564,8 +238648,8 @@
     "translation": "Nedýchavé vzplanutie srdca"
   },
   "1700100630": {
-    "source": "Epic Carried Item",
-    "translation": "Epic Carried Pt"
+    "source": "Epic Held Item",
+    "translation": "Epický nosený predmet"
   },
   "1700102351": {
     "source": "Brigid",
@@ -240796,8 +240880,8 @@
     "translation": "Floret, kde si?"
   },
   "1706402614": {
-    "source": "Carried Item Rune feature unlocked",
-    "translation": "Prevedená položka rune funkcie odomknuté"
+    "source": "Held Item Rune feature unlocked",
+    "translation": "Funkcia rún nosených predmetov odomknutá"
   },
   "1706418223": {
     "source": "80",
@@ -243144,8 +243228,8 @@
     "translation": "Odomkne emotívny smiech"
   },
   "1712574062": {
-    "source": "Yields <style=Hint_BgL>a small amount</style> of regional specialties, and Carried Items of up to <style=Q_3>Rare</style> quality.",
-    "translation": "Výnosy <style=Hint_BgL>a malá suma</style> regionálnych špecialít a prenášaných položiek až do <style=Q_3>Zriedkavé</style> kvality."
+    "source": "Yields <style=Hint_BgL>a small amount</style> of regional specialties, and Held Items of up to <style=Q_3>Rare</style> quality.",
+    "translation": "Poskytuje <style=Hint_BgL>malé množstvo</style> regionálnych špecialít a nosené predmety až <style=Q_3>vzácnej</style> kvality."
   },
   "1712580690": {
     "source": "First Badge Obtained",
@@ -245456,8 +245540,8 @@
     "translation": "[Miesto držiteľa]"
   },
   "1718533394": {
-    "source": "That’s correct. Defeating Aniimo Alphas may reward you with Carried Items.",
-    "translation": "To je správne. Poškodzovanie Aniimo Alphas ťa môže odmeniť unesenými predmetmi."
+    "source": "That’s correct. Defeating Aniimo Alphas may reward you with Held Items.",
+    "translation": "Správne. Za porazenie Alpha Aniimo môžeš získať nosené predmety."
   },
   "1718538345": {
     "source": "Clear, glistening sugar crystals that melt eagerly with warmth, releasing tender sweetness.",
@@ -247856,8 +247940,8 @@
     "translation": "Lie"
   },
   "1725249255": {
-    "source": "Butterfly Dream Amber",
-    "translation": "Butterfly Dream Amber"
+    "source": "Forest of Butterfly Dreams",
+    "translation": "Forest of Butterfly Dreams"
   },
   "1725254011": {
     "source": "No, thank you.",
@@ -247954,6 +248038,10 @@
   "1725448768": {
     "source": "Troubled Merchant",
     "translation": "Znepokojený obchodník"
+  },
+  "1725451892": {
+    "source": "1. Once the Event begins, Polaris Institute will announce the audition theme for Glamour Star.\n2. Pathfinders can choose suitable Aniimo and pair them with Accessories based on the current theme to complete event registration.\n3. The Institute will score participating Aniimo based on how well the Aniimo and Accessories match the theme.\n4. When a Pathfinder’s score reaches the required milestone, they can claim the corresponding reward.\n5. Each Glamour Star round can be entered multiple times, but each reward can only be claimed once and cannot be obtained repeatedly.",
+    "translation": "1. Po začatí podujatia inštitút Polaris oznámi tému kvalifikácie súťaže Glamour Star.\n2. Na prihlásenie do podujatia si môžu prieskumníci vybrať vhodných Aniimo a skombinovať ich s doplnkami podľa aktuálnej témy.\n3. Inštitút ohodnotí zúčastnených Aniimo podľa toho, ako dobre Aniimo a ich doplnky zodpovedajú téme.\n4. Keď skóre prieskumníka dosiahne požadovaný míľnik, môže si vyzdvihnúť príslušnú odmenu.\n5. Do každého kola súťaže Glamour Star sa možno zapojiť viackrát, ale každú odmenu možno získať iba raz."
   },
   "1725456102": {
     "source": "Have you heard the legend of the Lost Warrior? \nThey say a mighty Flameruff once roamed Beast Fang Ridge. Everyone was drawn to its warm, fire-scented fur.",
@@ -249315,6 +249403,10 @@
     "source": "Square Cushion",
     "translation": "Štvorcový podsedák"
   },
+  "1728989437": {
+    "source": "1. Once the Event begins, Polaris Institute will announce the audition theme for Glamour Star.\n2. Pathfinders can choose suitable Aniimo and pair them with Accessories based on the current theme to complete event registration.\n3. The Institute will score participating Aniimo based on how well the Aniimo and Accessories match the theme.\n4. When a Pathfinder’s score reaches the required milestone, they can claim the corresponding reward.\n5. Each Glamour Star round can be entered multiple times, but each reward can only be claimed once and cannot be obtained repeatedly.",
+    "translation": "1. Po začatí podujatia inštitút Polaris oznámi tému kvalifikácie súťaže Glamour Star.\n2. Na prihlásenie do podujatia si môžu prieskumníci vybrať vhodných Aniimo a skombinovať ich s doplnkami podľa aktuálnej témy.\n3. Inštitút ohodnotí zúčastnených Aniimo podľa toho, ako dobre Aniimo a ich doplnky zodpovedajú téme.\n4. Keď skóre prieskumníka dosiahne požadovaný míľnik, môže si vyzdvihnúť príslušnú odmenu.\n5. Do každého kola súťaže Glamour Star sa možno zapojiť viackrát, ale každú odmenu možno získať iba raz."
+  },
   "1729014165": {
     "source": "【NEW】Hedo",
     "translation": "None Hedo"
@@ -250520,8 +250612,8 @@
     "translation": "Huh?! Prečo?!\nVelouria chválila vôňu?!"
   },
   "1732320280": {
-    "source": "Yields <style=Hint_BgL>a large amount</style> of regional specialties, and Carried Items of up to <style=Q_5>Legendary</style> quality.",
-    "translation": "Výnosy <style=Hint_BgL>veľká suma</style> regionálnych špecialít a prenášaných položiek až do <style=Q_5>Legendárny</style> kvality."
+    "source": "Yields <style=Hint_BgL>a large amount</style> of regional specialties, and Held Items of up to <style=Q_5>Legendary</style> quality.",
+    "translation": "Poskytuje <style=Hint_BgL>veľké množstvo</style> regionálnych špecialít a nosené predmety až <style=Q_5>legendárnej</style> kvality."
   },
   "1732323880": {
     "source": "Sell",
@@ -254464,8 +254556,8 @@
     "translation": "ruža"
   },
   "1742755408": {
-    "source": "Start Detection",
-    "translation": "Spustiť kontrolu"
+    "source": "Start Diagnosis",
+    "translation": "Spustiť diagnostiku"
   },
   "1742755611": {
     "source": "Tab Placeholder",
@@ -262764,7 +262856,7 @@
     "translation": "Zamknuté produkty"
   },
   "1763749698": {
-    "source": "A patch of farmland that hasn’t been farmed yet, perfect for growing certain crops.",
+    "source": "A patch of farmland that hasn’t been cultivated yet, perfect for growing certain crops.",
     "translation": "Dosiaľ neobrobený kus pôdy vhodný na pestovanie vybraných plodín."
   },
   "1763750684": {
@@ -264240,8 +264332,8 @@
     "translation": "Tréning ohnivého živlu"
   },
   "1767288763": {
-    "source": "Aniimo Carried Item, an item treasured by a powerful Aniimo. When carried, it can help Aniimo enhance their Abilities.",
-    "translation": "Aniimo Unesená položka, vec, ktorú si cení mocný Aniimo. Keď sa nosí, môže pomôcť Aniimo zlepšiť ich schopnosti."
+    "source": "Aniimo Held Item, an item treasured by a powerful Aniimo. When held by Aniimo, it can help them enhance their Abilities.",
+    "translation": "Nosený predmet Aniimo, ktorý si cení mocný Aniimo. Keď ho Aniimo nosí, môže mu pomôcť posilniť schopnosti."
   },
   "1767295057": {
     "source": "Offensive robot",
@@ -264494,6 +264586,10 @@
   "1768058481": {
     "source": "Press (placeholder) key",
     "translation": "Tlačový (placehold) kľúč"
+  },
+  "1768063412": {
+    "source": "Nova Stage",
+    "translation": "Štádium Nova"
   },
   "1768072459": {
     "source": "Pro Catcher",
@@ -276004,7 +276100,7 @@
     "translation": "Okrúhly podsedák – Vzorovaný variant"
   },
   "1798454723": {
-    "source": "Pause/Play",
+    "source": "Pause / Play",
     "translation": "Pozastaviť/Prehrať"
   },
   "1798457686": {
@@ -277534,6 +277630,10 @@
   "1802643434": {
     "source": "Scar-faced Helgon",
     "translation": "Helgon s jazvou na tvári"
+  },
+  "1802693175": {
+    "source": "Umbral Erlath",
+    "translation": "Umbral Erlath"
   },
   "1802700326": {
     "source": "Sunia",
@@ -279558,6 +279658,10 @@
   "1808079958": {
     "source": "The handmade shell wind chime jingles softly when the breeze blows.",
     "translation": "Ručne vyrobený škrupina vietor zvoní žíhať jemne, keď vánok fúka."
+  },
+  "1808089158": {
+    "source": "1. Once the Event begins, Polaris Institute will announce the audition theme for Glamour Star.\n2. Pathfinders can choose suitable Aniimo and pair them with Accessories based on the current theme to complete event registration.\n3. The Institute will score participating Aniimo based on how well the Aniimo and Accessories match the theme.\n4. When a Pathfinder’s score reaches the required milestone, they can claim the corresponding reward.\n5. Each Glamour Star round can be entered multiple times, but each reward can only be claimed once and cannot be obtained repeatedly.",
+    "translation": "1. Po začatí podujatia inštitút Polaris oznámi tému kvalifikácie súťaže Glamour Star.\n2. Na prihlásenie do podujatia si môžu prieskumníci vybrať vhodných Aniimo a skombinovať ich s doplnkami podľa aktuálnej témy.\n3. Inštitút ohodnotí zúčastnených Aniimo podľa toho, ako dobre Aniimo a ich doplnky zodpovedajú téme.\n4. Keď skóre prieskumníka dosiahne požadovaný míľnik, môže si vyzdvihnúť príslušnú odmenu.\n5. Do každého kola súťaže Glamour Star sa možno zapojiť viackrát, ale každú odmenu možno získať iba raz."
   },
   "1808106446": {
     "source": "Kim",
@@ -283491,6 +283595,10 @@
     "source": "Alpha Tubster",
     "translation": "Alpha Tubster"
   },
+  "1818406773": {
+    "source": "Starting log upload",
+    "translation": "Spúšťa sa odosielanie protokolov"
+  },
   "1818412708": {
     "source": "There seems to be a clue underground",
     "translation": "Zdá sa, že je tu stopa pod zemou."
@@ -283644,8 +283752,8 @@
     "translation": "žerucha"
   },
   "1818894732": {
-    "source": "Aniimo Carried Item, an item treasured by a powerful Aniimo. When carried, it can help Aniimo enhance their Abilities.",
-    "translation": "Aniimo Unesená položka, vec, ktorú si cení mocný Aniimo. Keď sa nosí, môže pomôcť Aniimo zlepšiť ich schopnosti."
+    "source": "Aniimo Held Item, an item treasured by a powerful Aniimo. When held by Aniimo, it can help them enhance their Abilities.",
+    "translation": "Nosený predmet Aniimo, ktorý si cení mocný Aniimo. Keď ho Aniimo nosí, môže mu pomôcť posilniť schopnosti."
   },
   "1818933196": {
     "source": "They don’t need our approval.",
@@ -284142,6 +284250,10 @@
   "1820236112": {
     "source": "BINI #9",
     "translation": "BINI #9"
+  },
+  "1820237724": {
+    "source": "1. Once the Event begins, Polaris Institute will announce the audition theme for Glamour Star.\n2. Pathfinders can choose suitable Aniimo and pair them with Accessories based on the current theme to complete event registration.\n3. The Institute will score participating Aniimo based on how well the Aniimo and Accessories match the theme.\n4. When a Pathfinder’s score reaches the required milestone, they can claim the corresponding reward.\n5. Each Glamour Star round can be entered multiple times, but each reward can only be claimed once and cannot be obtained repeatedly.",
+    "translation": "1. Po začatí podujatia inštitút Polaris oznámi tému kvalifikácie súťaže Glamour Star.\n2. Na prihlásenie do podujatia si môžu prieskumníci vybrať vhodných Aniimo a skombinovať ich s doplnkami podľa aktuálnej témy.\n3. Inštitút ohodnotí zúčastnených Aniimo podľa toho, ako dobre Aniimo a ich doplnky zodpovedajú téme.\n4. Keď skóre prieskumníka dosiahne požadovaný míľnik, môže si vyzdvihnúť príslušnú odmenu.\n5. Do každého kola súťaže Glamour Star sa možno zapojiť viackrát, ale každú odmenu možno získať iba raz."
   },
   "1820243416": {
     "source": "Nourished by the essence of moondew, this radish gleams as white as the moon and tastes as sweet as fresh morning dew.",
@@ -285692,8 +285804,8 @@
     "translation": "Zobraziť mapu"
   },
   "1824103527": {
-    "source": "Earth-type Aniimo specialize in reclaiming land and mining resources.",
-    "translation": "Zemský typ Aniimo špecializujú sa na získavanie pozemkov a banských zdrojov."
+    "source": "Earth-type Aniimo can perform tasks such as cultivating land and mining resources in the Home.",
+    "translation": "Aniimo zemného typu môžu v domove vykonávať úlohy, ako je obrábanie pôdy a ťažba surovín."
   },
   "1824104864": {
     "source": "{0}/min",
@@ -288627,6 +288739,10 @@
     "source": "Aven",
     "translation": "Aven"
   },
+  "1831638158": {
+    "source": "1. Once the Event begins, Polaris Institute will announce the audition theme for Glamour Star.\n2. Pathfinders can choose suitable Aniimo and pair them with Accessories based on the current theme to complete event registration.\n3. The Institute will score participating Aniimo based on how well the Aniimo and Accessories match the theme.\n4. When a Pathfinder’s score reaches the required milestone, they can claim the corresponding reward.\n5. Each Glamour Star round can be entered multiple times, but each reward can only be claimed once and cannot be obtained repeatedly.",
+    "translation": "1. Po začatí podujatia inštitút Polaris oznámi tému kvalifikácie súťaže Glamour Star.\n2. Na prihlásenie do podujatia si môžu prieskumníci vybrať vhodných Aniimo a skombinovať ich s doplnkami podľa aktuálnej témy.\n3. Inštitút ohodnotí zúčastnených Aniimo podľa toho, ako dobre Aniimo a ich doplnky zodpovedajú téme.\n4. Keď skóre prieskumníka dosiahne požadovaný míľnik, môže si vyzdvihnúť príslušnú odmenu.\n5. Do každého kola súťaže Glamour Star sa možno zapojiť viackrát, ale každú odmenu možno získať iba raz."
+  },
   "1831663877": {
     "source": "Uncle, we have a visitor!",
     "translation": "Strýko, máme návštevu!"
@@ -288708,7 +288824,7 @@
     "translation": "Morfling sa zlúčil s Aniimo. Môžete ho chytiť len hádzanie Aniipod na Morphling bez narušenia Aniimo."
   },
   "1831804938": {
-    "source": "A patch of farmland that hasn’t been farmed yet, perfect for growing certain crops.",
+    "source": "A patch of farmland that hasn’t been cultivated yet, perfect for growing certain crops.",
     "translation": "Dosiaľ neobrobený kus pôdy vhodný na pestovanie vybraných plodín."
   },
   "1831824522": {
@@ -289088,8 +289204,8 @@
     "translation": "Flicker"
   },
   "1832815711": {
-    "source": "%s appeared in their own World",
-    "translation": "%s sa objavil vo vlastnom svete"
+    "source": "%s has appeared in your world.",
+    "translation": "%s je teraz v tvojom svete."
   },
   "1832818481": {
     "source": "Change",
@@ -294999,6 +295115,10 @@
     "source": "ATK +2%",
     "translation": "ATK +2%"
   },
+  "1848176021": {
+    "source": "Benevolence",
+    "translation": "Benevolence"
+  },
   "1848196222": {
     "source": "Master of Collections",
     "translation": "Majster zbierok"
@@ -296334,6 +296454,10 @@
   "1852022970": {
     "source": "Exhibition Wall Information-C2",
     "translation": "Výstava Informácie o stene-C2"
+  },
+  "1852029162": {
+    "source": "1. Once the Event begins, Polaris Institute will announce the audition theme for Glamour Star.\n2. Pathfinders can choose suitable Aniimo and pair them with Accessories based on the current theme to complete event registration.\n3. The Institute will score participating Aniimo based on how well the Aniimo and Accessories match the theme.\n4. When a Pathfinder’s score reaches the required milestone, they can claim the corresponding reward.\n5. Each Glamour Star round can be entered multiple times, but each reward can only be claimed once and cannot be obtained repeatedly.",
+    "translation": "1. Po začatí podujatia inštitút Polaris oznámi tému kvalifikácie súťaže Glamour Star.\n2. Na prihlásenie do podujatia si môžu prieskumníci vybrať vhodných Aniimo a skombinovať ich s doplnkami podľa aktuálnej témy.\n3. Inštitút ohodnotí zúčastnených Aniimo podľa toho, ako dobre Aniimo a ich doplnky zodpovedajú téme.\n4. Keď skóre prieskumníka dosiahne požadovaný míľnik, môže si vyzdvihnúť príslušnú odmenu.\n5. Do každého kola súťaže Glamour Star sa možno zapojiť viackrát, ale každú odmenu možno získať iba raz."
   },
   "1852035599": {
     "source": "Dr. Glass",
@@ -302572,7 +302696,7 @@
     "translation": "Aniimologické oddelenie Intro"
   },
   "1867907924": {
-    "source": "A patch of farmland that hasn’t been farmed yet, perfect for growing certain crops.",
+    "source": "A patch of farmland that hasn’t been cultivated yet, perfect for growing certain crops.",
     "translation": "Dosiaľ neobrobený kus pôdy vhodný na pestovanie vybraných plodín."
   },
   "1867918991": {
@@ -306170,6 +306294,10 @@
   "1877283722": {
     "source": "Event Details",
     "translation": "Detaily udalosti"
+  },
+  "1877285763": {
+    "source": "Water Carnival",
+    "translation": "Vodný karneval"
   },
   "1877308092": {
     "source": "Your teammate has activated the moving platform. Watch carefully!",
@@ -311291,6 +311419,10 @@
     "source": "Press anywhere to close",
     "translation": "Stlačte kdekoľvek zavrieť"
   },
+  "1890751243": {
+    "source": "Glamour Star",
+    "translation": "Glamour Star"
+  },
   "1890752373": {
     "source": "Ava",
     "translation": "Ava"
@@ -313044,7 +313176,7 @@
     "translation": "Normálne by si pridal nejaké vajce..."
   },
   "1895463583": {
-    "source": "A patch of farmland that hasn’t been farmed yet, perfect for growing certain crops.",
+    "source": "A patch of farmland that hasn’t been cultivated yet, perfect for growing certain crops.",
     "translation": "Dosiaľ neobrobený kus pôdy vhodný na pestovanie vybraných plodín."
   },
   "1895470462": {
@@ -313808,8 +313940,8 @@
     "translation": "Vyvážený robot"
   },
   "1897610910": {
-    "source": "Aniimo Carried Item, an item treasured by a powerful Aniimo. When carried, it can help Aniimo enhance their Abilities.",
-    "translation": "Aniimo Unesená položka, vec, ktorú si cení mocný Aniimo. Keď sa nosí, môže pomôcť Aniimo zlepšiť ich schopnosti."
+    "source": "Aniimo Held Item, an item treasured by a powerful Aniimo. When held by Aniimo, it can help them enhance their Abilities.",
+    "translation": "Nosený predmet Aniimo, ktorý si cení mocný Aniimo. Keď ho Aniimo nosí, môže mu pomôcť posilniť schopnosti."
   },
   "1897612484": {
     "source": "Select [<style=Hint_BgL>Aniimo Management</style>].",
@@ -320696,8 +320828,8 @@
     "translation": "Tubster (Leader)"
   },
   "1915843880": {
-    "source": "Yields <style=Hint_BgL>a moderate amount</style> of regional specialties, and Carried Items of up to <style=Q_4>Epic</style> quality.",
-    "translation": "Výnosy <style=Hint_BgL>a mierna suma</style> regionálnych špecialít a prenášaných položiek až do <style=Q_4>Epic</style> kvality."
+    "source": "Yields <style=Hint_BgL>a moderate amount</style> of regional specialties, and Held Items of up to <style=Q_4>Epic</style> quality.",
+    "translation": "Poskytuje <style=Hint_BgL>stredné množstvo</style> regionálnych špecialít a nosené predmety až <style=Q_4>epickej</style> kvality."
   },
   "1915846471": {
     "source": "Attack/Throw",
@@ -323355,6 +323487,10 @@
     "source": "Rookey Glass - Level 3",
     "translation": "Rookey Glass - Level 3"
   },
+  "1922771831": {
+    "source": "Failed to upload logs",
+    "translation": "Nepodarilo sa odoslať protokoly"
+  },
   "1922780975": {
     "source": "Recovers <style=Hint_BgL>{param0}</style> UP per second.",
     "translation": "Recidíva <style=Hint_BgL>{param0}</style> Up za sekundu."
@@ -324751,6 +324887,10 @@
     "source": "Sparkly Shelly",
     "translation": "Šumivé šelmy"
   },
+  "1926564502": {
+    "source": "The Glamour Star preliminaries are now open! Based on the current theme, choose the perfect Aniimo outfit and aim for a high score to become the brightest star!",
+    "translation": "Predkolo súťaže Glamour Star je otvorené! Vyber pre Aniimo dokonalý outfit podľa aktuálnej témy a získaj čo najvyššie skóre, aby sa stal najžiarivejšou hviezdou!"
+  },
   "1926567844": {
     "source": "Nicole",
     "translation": "Nicole"
@@ -324856,8 +324996,8 @@
     "translation": "Keď potvrdíte svoj výber, ťuknite sem a spustíte sa spolu. Vyvolený Aniimo Počkáme na vás tu.\nRaz <style=Hint_BgL>Dostaň sa na Lv. 40 a propagovať svoju hlavu</style>, toto Aniimo môže cestovať vedľa vás.\nPredtým, ako si trvalo nárokujete Aniimo, môžete <style=Hint_BgL>kedykoľvek vymeniť za svojho preferovaného spoločníka</style>!"
   },
   "1926801134": {
-    "source": "Reclaiming",
-    "translation": "Obnova"
+    "source": "Cultivating",
+    "translation": "Obrábanie pôdy"
   },
   "1926801992": {
     "source": "A mushroom-shaped warm light glows softly in the corner, casting a gentle glow.",
@@ -328632,8 +328772,8 @@
     "translation": "Lunara"
   },
   "1937006741": {
-    "source": "Cleanup, build, produce, plant and sell for more home coins. That’s how you do business.",
-    "translation": "Čistenie, stavba, výroba, plantáž a predaj za viac domácich mincí. To je to, ako robíte obchod."
+    "source": "Cultivate, build, produce, plant, collect, then sell to earn more home coins, and repeat the cycle.",
+    "translation": "Obrábaj pôdu, stavaj, vyrábaj, saď, zbieraj a potom predávaj, aby si získal viac mincí domova. A celý cyklus opakuj."
   },
   "1937009831": {
     "source": "Spectating Male Student",
@@ -336812,8 +336952,8 @@
     "translation": "Baaah!"
   },
   "1958772176": {
-    "source": "Carried Item Level Up",
-    "translation": "Udelená úroveň položky hore"
+    "source": "Held Item Level Up",
+    "translation": "Zvýšenie úrovne noseného predmetu"
   },
   "1958782969": {
     "source": "New Skill Set added",
@@ -338432,8 +338572,8 @@
     "translation": "Timid Susuta"
   },
   "1963222221": {
-    "source": "Gold-quality Carried Item. When equipped by an Aniimo, it enhances the Aniimo’s abilities.",
-    "translation": "Zlatá kvalita prepravovaná položka. Ak je vybavený Aniimo, zvyšuje Aniimo Má schopnosti."
+    "source": "Gold-quality Held Item. When equipped by an Aniimo, it enhances the Aniimo’s abilities.",
+    "translation": "Nosený predmet zlatej kvality. Keď si ho Aniimo vybaví, posilní jeho schopnosti."
   },
   "1963223924": {
     "source": "Black screen text",
@@ -344843,6 +344983,10 @@
     "source": "After heading upstairs to rest, you tell your companion about the dream you had before the statue. Together, you leaf through the elder’s collection of ancient books and discuss the connection between Aeolus, the Bloom Festival, and the big cube. As you talk, you gradually drift off and enter the dream once more.",
     "translation": "Keď idete hore odpočinúť, povedzte svojmu spoločníkovi o sne, ktorý ste mali pred sochou. Spoločne listujete zbierkou starovekých kníh a diskutujete o spojení medzi Aeolus, Bloom Festival a veľkou kockou. Keď rozprávate, postupne sa odrazíte a opäť vstúpite do sna."
   },
+  "1980564627": {
+    "source": "Logs uploaded successfully",
+    "translation": "Protokoly boli úspešne odoslané"
+  },
   "1980565620": {
     "source": "Hot Fountain",
     "translation": "Horúca fontána"
@@ -347916,8 +348060,8 @@
     "translation": "Keď zručnosť porazí cieľ, teleportuje sa za novým cieľom a obnovuje <style=Hint_BgL><customRichText(calcData,buff, 20020010,param0,1)></style> EP."
   },
   "1988874577": {
-    "source": "Yields <style=Hint_BgL>a small amount</style> of regional specialties, and Carried Items of up to <style=Q_3>Rare</style> quality.",
-    "translation": "Výnosy <style=Hint_BgL>a malá suma</style> regionálnych špecialít a prenášaných položiek až do <style=Q_3>Zriedkavé</style> kvality."
+    "source": "Yields <style=Hint_BgL>a small amount</style> of regional specialties, and Held Items of up to <style=Q_3>Rare</style> quality.",
+    "translation": "Poskytuje <style=Hint_BgL>malé množstvo</style> regionálnych špecialít a nosené predmety až <style=Q_3>vzácnej</style> kvality."
   },
   "1988875715": {
     "source": "Offensive robot",
@@ -349210,6 +349354,10 @@
   "1992338440": {
     "source": "Grass-type Boost",
     "translation": "Posilnenie trávového typu"
+  },
+  "1992340295": {
+    "source": "1. Once the Event begins, Polaris Institute will announce the audition theme for Glamour Star.\n2. Pathfinders can choose suitable Aniimo and pair them with Accessories based on the current theme to complete event registration.\n3. The Institute will score participating Aniimo based on how well the Aniimo and Accessories match the theme.\n4. When a Pathfinder’s score reaches the required milestone, they can claim the corresponding reward.\n5. Each Glamour Star round can be entered multiple times, but each reward can only be claimed once and cannot be obtained repeatedly.",
+    "translation": "1. Po začatí podujatia inštitút Polaris oznámi tému kvalifikácie súťaže Glamour Star.\n2. Na prihlásenie do podujatia si môžu prieskumníci vybrať vhodných Aniimo a skombinovať ich s doplnkami podľa aktuálnej témy.\n3. Inštitút ohodnotí zúčastnených Aniimo podľa toho, ako dobre Aniimo a ich doplnky zodpovedajú téme.\n4. Keď skóre prieskumníka dosiahne požadovaný míľnik, môže si vyzdvihnúť príslušnú odmenu.\n5. Do každého kola súťaže Glamour Star sa možno zapojiť viackrát, ale každú odmenu možno získať iba raz."
   },
   "1992371177": {
     "source": "Increases Aniimo’s work efficiency by 20% when working on [Mineral Pile]",
@@ -353304,8 +353452,8 @@
     "translation": "Ďalšia nezabudnuteľná pamäť na mojej snahe zhromaždiť každú Primana Aniimo."
   },
   "2002598940": {
-    "source": "Aniimo Carried Item, an item treasured by a powerful Aniimo. When carried, it can help Aniimo enhance their Abilities.",
-    "translation": "Aniimo Unesená položka, vec, ktorú si cení mocný Aniimo. Keď sa nosí, môže pomôcť Aniimo zlepšiť ich schopnosti."
+    "source": "Aniimo Held Item, an item treasured by a powerful Aniimo. When held by Aniimo, it can help them enhance their Abilities.",
+    "translation": "Nosený predmet Aniimo, ktorý si cení mocný Aniimo. Keď ho Aniimo nosí, môže mu pomôcť posilniť schopnosti."
   },
   "2002600589": {
     "source": "Test Furniture No.5",
@@ -358992,8 +359140,8 @@
     "translation": "Počas prevádzky praská, pri dotyku jemne brní a neustále z neho vyletujú drobné iskry."
   },
   "2017176634": {
-    "source": "You can also obtain good Carried Items. The questions below may be related to your understanding of combat.",
-    "translation": "Môžete tiež získať dobré Carried položky. Nižšie uvedené otázky môžu súvisieť s vaším porozumením boja."
+    "source": "You can also obtain good Held Items. The questions below may be related to your understanding of combat.",
+    "translation": "Môžeš získať aj dobré nosené predmety. Nasledujúce otázky sa môžu týkať tvojich znalostí boja."
   },
   "2017177316": {
     "source": "Puzzle Recovery - Apartment Open for Business",
@@ -359900,8 +360048,8 @@
     "translation": "Užitočný Fentuft"
   },
   "2019933308": {
-    "source": "Umbral Flamerion",
-    "translation": "Umbral Flamerion"
+    "source": "Umbral Erlath",
+    "translation": "Umbral Erlath"
   },
   "2019937898": {
     "source": "Great! I’m sure you can find Echobacks!",
@@ -361204,8 +361352,8 @@
     "translation": "Umiestňujem kartu"
   },
   "2023353376": {
-    "source": "Leaderboard Starts: {0}",
-    "translation": "Začína sa tabuľa Leader: {0}"
+    "source": "Stay tuned",
+    "translation": "Už čoskoro"
   },
   "2023354030": {
     "source": "Capacitous Battery",
@@ -364208,8 +364356,8 @@
     "translation": "Pri každom zásahu cieľa získa Irisalis Clone 1 bod Dance Power. Po nazbieraní 9 bodov Dance Power stojí jeho nasledujúca schopnosť o 50% menej EP a obnoví blízkym spojencom HP vo výške <customRichText(calcData,buff, 91213012,param0,1,%d)>% jeho vlastného maximálneho HP."
   },
   "2031004921": {
-    "source": "Item Type (-1 means all): 0 = Equipped, 1 = Materials, 2 = Usable Items, 3 = Miscellaneous, 4 = Spirit Heart, 5 = Quests, 6 = Special Prompt Items, 7 = Core Carried Item, 8 = Support Carried Item, 99 = Currency",
-    "translation": "Typ položky (-1 znamená všetko): 0 = Vybavené, 1 = materiály, 2 = Užitočné položky, 3 = rôzne, 4 = Spirit Heart, 5 = hľadanie, 6 = špeciálne predmety, 7 = Core Carried Item, 8 = Support Carried Item, 99 = Mena"
+    "source": "Item Type (-1 means all): 0 = Equipped, 1 = Materials, 2 = Usable Items, 3 = Miscellaneous, 4 = Spirit Heart, 5 = Quests, 6 = Special Prompt Items, 7 = Core Held Item, 8 = Support Held Item, 99 = Currency",
+    "translation": "Typ predmetu (-1 znamená všetky): 0 = Vybavené, 1 = Materiály, 2 = Použiteľné predmety, 3 = Rôzne, 4 = Spirit Heart, 5 = Úlohy, 6 = Predmety so špeciálnym upozornením, 7 = Hlavný nosený predmet, 8 = Podporný nosený predmet, 99 = Mena"
   },
   "2031006141": {
     "source": "Only Aniimo of the same family can inherit.",
@@ -364824,8 +364972,8 @@
     "translation": "Toto je môj sen:\n<style=Hint_BgD>privítať každého bádateľa hviezd s krajinou v plnom kvete</style>."
   },
   "2032747102": {
-    "source": "Reclaiming...",
-    "translation": "Obnovenie..."
+    "source": "Cultivating...",
+    "translation": "Obrábanie pôdy..."
   },
   "2032751202": {
     "source": "Indistinct voice",
@@ -366744,7 +366892,7 @@
     "translation": "Dosiahnutie úrovne RV 10"
   },
   "2038027337": {
-    "source": "A patch of farmland that hasn’t been farmed yet, perfect for growing certain crops.",
+    "source": "A patch of farmland that hasn’t been cultivated yet, perfect for growing certain crops.",
     "translation": "Dosiaľ neobrobený kus pôdy vhodný na pestovanie vybraných plodín."
   },
   "2038037017": {
@@ -377715,6 +377863,10 @@
     "source": "B - Fire-type Flameruff",
     "translation": "B - Ohňovzdorné plameňomety"
   },
+  "2066940891": {
+    "source": "Sunlit Grove",
+    "translation": "Slnkom zaliaty hájik"
+  },
   "2066942469": {
     "source": "Oh ho! He just shut himself off!",
     "translation": "Oh ho! Práve sa vypol!"
@@ -380499,6 +380651,10 @@
     "source": "Dreamy colors of prismana",
     "translation": "Odstraňujúce farby primany"
   },
+  "2074270703": {
+    "source": "Network Test Results Uploaded Successfully",
+    "translation": "Výsledky testu siete boli úspešne odoslané"
+  },
   "2074285767": {
     "source": "Precisely dodge 1 attack using [Fire Kick]",
     "translation": "Presne sa vyhneme 1 útok pomocou [Ohnivý kop]"
@@ -382475,6 +382631,10 @@
     "source": "Premium Lemon Incense",
     "translation": "Premium Citrónový efekt"
   },
+  "2079298497": {
+    "source": "1. Once the Event begins, Polaris Institute will announce the audition theme for Glamour Star.\n2. Pathfinders can choose suitable Aniimo and pair them with Accessories based on the current theme to complete event registration.\n3. The Institute will score participating Aniimo based on how well the Aniimo and Accessories match the theme.\n4. When a Pathfinder’s score reaches the required milestone, they can claim the corresponding reward.\n5. Each Glamour Star round can be entered multiple times, but each reward can only be claimed once and cannot be obtained repeatedly.",
+    "translation": "1. Po začatí podujatia inštitút Polaris oznámi tému kvalifikácie súťaže Glamour Star.\n2. Na prihlásenie do podujatia si môžu prieskumníci vybrať vhodných Aniimo a skombinovať ich s doplnkami podľa aktuálnej témy.\n3. Inštitút ohodnotí zúčastnených Aniimo podľa toho, ako dobre Aniimo a ich doplnky zodpovedajú téme.\n4. Keď skóre prieskumníka dosiahne požadovaný míľnik, môže si vyzdvihnúť príslušnú odmenu.\n5. Do každého kola súťaže Glamour Star sa možno zapojiť viackrát, ale každú odmenu možno získať iba raz."
+  },
   "2079314987": {
     "source": "Furniture",
     "translation": "Nábytok"
@@ -382588,8 +382748,8 @@
     "translation": "Možno."
   },
   "2079593291": {
-    "source": "During the Event, you can receive double drop rewards for Carried Items/Runes. Remaining",
-    "translation": "Počas podujatia môžete dostávať dvojnásobnú odmenu za unesené predmety/Runes. Zostáva"
+    "source": "During the Event, you can receive double drop rewards for Held Items/Runes. Remaining",
+    "translation": "Počas podujatia môžeš získať dvojnásobné odmeny v podobe nosených predmetov/rún. Zostáva"
   },
   "2079602694": {
     "source": "Baaah!!!",
@@ -383656,7 +383816,7 @@
     "translation": "Okrúhle nočné svetielko ako mesiačik pri posteli. Jemná žiara dopadá na vankúš a robí ti spoločnosť pri zaspávaní."
   },
   "2082380983": {
-    "source": "A patch of farmland that hasn’t been farmed yet, perfect for growing certain crops.",
+    "source": "A patch of farmland that hasn’t been cultivated yet, perfect for growing certain crops.",
     "translation": "Dosiaľ neobrobený kus pôdy vhodný na pestovanie vybraných plodín."
   },
   "2082382328": {
@@ -384378,6 +384538,10 @@
   "2084160549": {
     "source": "Watch out, it’s slippery!",
     "translation": "Pozor, je to klzké!"
+  },
+  "2084161286": {
+    "source": "DPS",
+    "translation": "DPS"
   },
   "2084172294": {
     "source": "Me",
@@ -385567,6 +385731,10 @@
     "source": "3666",
     "translation": "3666"
   },
+  "2087410097": {
+    "source": "Pack",
+    "translation": "Balík"
+  },
   "2087422421": {
     "source": "Holo-Battle Interlink Leaderboard Reward",
     "translation": "Holo-Battle Interlink Leaderboard Odmena"
@@ -385728,8 +385896,8 @@
     "translation": "Toto úložisko je zamknuté. Prosím, odomkni ho pred organizovaním."
   },
   "2087936928": {
-    "source": "Yields <style=Hint_BgL>a moderate amount</style> of regional specialties, and Carried Items of up to <style=Q_4>Epic</style> quality.",
-    "translation": "Výnosy <style=Hint_BgL>a mierna suma</style> regionálnych špecialít a prenášaných položiek až do <style=Q_4>Epic</style> kvality."
+    "source": "Yields <style=Hint_BgL>a moderate amount</style> of regional specialties, and Held Items of up to <style=Q_4>Epic</style> quality.",
+    "translation": "Poskytuje <style=Hint_BgL>stredné množstvo</style> regionálnych špecialít a nosené predmety až <style=Q_4>epickej</style> kvality."
   },
   "2087940930": {
     "source": "View Map",
@@ -385796,8 +385964,8 @@
     "translation": "Skrytá hlboko v zemi, vyrastajúca z nej...\nJe vôňa čerstvej zelenej reprezentujúcej Talenty a Revive."
   },
   "2088108422": {
-    "source": "Select wheat formula in settings, sow the seeds, and start to plant...",
-    "translation": "Vyberte pšeničný vzorec v nastavení, zasiať semená, a začať sadiť..."
+    "source": "Select the wheat formula in settings, sow the seeds, and start to cultivate...",
+    "translation": "V nastaveniach vyber recept na pšenicu, zasej semená a začni pestovať..."
   },
   "2088112568": {
     "source": "Nova Secrets",
@@ -388536,8 +388704,8 @@
     "translation": "Pebbling"
   },
   "2094878631": {
-    "source": "Try enhancing your <style=Hint_BgL>Carried Item to level 5</style>.\nPress #kRaw/GamepadButtonNorth#z to enhance your Carried Item.",
-    "translation": "Skúste si zlepšiť <style=Hint_BgL>Prenesený predmet na úroveň 5</style>.\nStlačte #kRaw/GamepadButtonNorth#z pre zvýšenie vašej Carried položky."
+    "source": "Try enhancing your <style=Hint_BgL>Held Item to level 5</style>.\nPress #kRaw/GamepadButtonNorth#z to enhance your Held Item.",
+    "translation": "Skús vylepšiť svoj <style=Hint_BgL>nosený predmet na úroveň 5</style>.\nStlačením #kRaw/GamepadButtonNorth#z vylepšíš svoj nosený predmet."
   },
   "2094901646": {
     "source": "Fannie",
@@ -390280,8 +390448,8 @@
     "translation": "Vyzerá to nádherne, ale nechoď príliš blízko."
   },
   "2099468791": {
-    "source": "Aniimo Carried Item, an item treasured by a powerful Aniimo. When carried, it can help Aniimo enhance their Abilities.",
-    "translation": "Aniimo Unesená položka, vec, ktorú si cení mocný Aniimo. Keď sa nosí, môže pomôcť Aniimo zlepšiť ich schopnosti."
+    "source": "Aniimo Held Item, an item treasured by a powerful Aniimo. When held by Aniimo, it can help them enhance their Abilities.",
+    "translation": "Nosený predmet Aniimo, ktorý si cení mocný Aniimo. Keď ho Aniimo nosí, môže mu pomôcť posilniť schopnosti."
   },
   "2099484420": {
     "source": "Pula... pula-sss!",
@@ -395186,6 +395354,10 @@
   "2112816555": {
     "source": "Chat",
     "translation": "Rozhovor"
+  },
+  "2112820829": {
+    "source": "Benevolence Domain",
+    "translation": "Oblasť Benevolence"
   },
   "2112821229": {
     "source": "A wooden barrel exuding a light fruity fragrance, with Aniimo hopping and playing on its top to press the fruits and crops inside into fine brew. Reach RV <style=Hint_BgL>level 12</style> to switch to E-mode.",
@@ -404324,8 +404496,8 @@
     "translation": "<color=#5090df>%s</color> vykrútil si členky počas skákajúcej súťaže s priateľmi."
   },
   "2136230202": {
-    "source": "Rare Carried Item. When equipped by an Aniimo, it enhances the Aniimo’s abilities.",
-    "translation": "Vzácna unesená položka. Ak je vybavený Aniimo, zvyšuje Aniimo Má schopnosti."
+    "source": "Rare Held Item. When equipped by an Aniimo, it enhances the Aniimo’s abilities.",
+    "translation": "Vzácny nosený predmet. Keď si ho Aniimo vybaví, posilní jeho schopnosti."
   },
   "2136232316": {
     "source": "It’s got so much more stored electricity than my previous ones. I’ve been looking for somewhere to discharge it. Want to fight?",
@@ -405375,6 +405547,10 @@
     "source": "Albert",
     "translation": "Albert"
   },
+  "2139099862": {
+    "source": "Nova Stage",
+    "translation": "Štádium Nova"
+  },
   "2139123320": {
     "source": "Fannie",
     "translation": "Fannie"
@@ -405532,8 +405708,8 @@
     "translation": "Sanctum Challenge"
   },
   "2139549062": {
-    "source": "Next question, how do you activate the <style=Hint_BgD>advanced set</style> effect of a Carried Item?",
-    "translation": "Ďalšia otázka, ako aktivovať <style=Hint_BgD>pokročilá sada</style> efekt unesenej položky?"
+    "source": "Next question, how do you activate the <style=Hint_BgD>advanced set</style> effect of a Held Item?",
+    "translation": "Ďalšia otázka: ako aktivuješ účinok <style=Hint_BgD>pokročilej sady</style> noseného predmetu?"
   },
   "2139552762": {
     "source": "Flutternym",
@@ -448532,8 +448708,8 @@
     "translation": "Vzácna truhlica"
   },
   "535202182": {
-    "source": "Activate the Gamma Stage effect on any Carried Item",
-    "translation": "Aktivovať Gama Stage efekt na každú unesenú položku"
+    "source": "Activate the Gamma Stage effect on any Held Item",
+    "translation": "Aktivuj účinok Gamma Stage na ľubovoľnom nosenom predmete"
   },
   "535226894": {
     "source": "Reach RV level 17.",

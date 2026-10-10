@@ -1,0 +1,37 @@
+{
+  "installerVersion": "1.4.1",
+  "translationVersion": "0.07",
+  "releaseVersion": "0.07",
+  "releaseChannel": "release",
+  "gameBuild": 3668494,
+  "textVersion": 1791540578,
+  "records": 112308,
+  "changedRecords": 95335,
+  "translation": "AI-MT-with-reviewed-corrections",
+  "gameTested": true,
+  "sourceFiles": {
+    "LuaScripts.xdf": "b1185cbd98f0a12e2a05abcd7249b4dfea18357f8da12de15f6a74acb7b8a2c2",
+    "LuaScripts.xdt": "779af8600fafcc8c986bf00d495f469b4d44baae84e4415398a7a81483349e2b",
+    "LuaCacheVer.txt": "8ab468e6ef432fc79ab8fd870a4aa9bcc4e12fe611c9090ce4f4d3500f425e99",
+    "LuaScripts/Data/I18N/Compress_en.bin": "7dfbec05ce6e5e6b651ff3da5138e6deb9649059ac05a3faa02f0ea7f8c1f6e2",
+    "builtin/LuaScripts.xdf": "b1185cbd98f0a12e2a05abcd7249b4dfea18357f8da12de15f6a74acb7b8a2c2",
+    "builtin/LuaScripts.xdt": "779af8600fafcc8c986bf00d495f469b4d44baae84e4415398a7a81483349e2b",
+    "fonts/xgui_font_94caf04d33b30d3bf95fff3d59018c81.uab": "8a75ddaed7cade899bfe89baad5bec738c111b62295bebd0b73d2856177e8cde",
+    "fonts/xgui_font_asset_0_7c59a01880d83ee3f861970de35c3ce3.uab": "1cfabdf7bb0f69d1624f98ec32f96f23d3de84bc01145e0c690c37a3a7faf614",
+    "fonts/xpt21_ar_resx_04a564c8_xgui_font_0_9b0f7d72fb917cb12ac86710360d45c8.uab": "6d8d8f79fd513df454382c3bf5511cda8f8df22b3f092454121961bd29df806c",
+    "fonts/xpt21_mres_exall_0_56f2e8c16cb439a06833bfae669c0e6c.uab": "232c368e38be774afbf597674280b6e2554a51f4756c0b4630b951b6903f93fb",
+    "boot/resources.assets.resS": "68601529d98d98d3baff09a7499bd533774788b18db603b38516599cbc769fd7",
+    "fonts/xpt22_mres_exall_0_9fd11bcc7e5149929c8fc6622a551ae9.uab": "7428d3c7bfbed025ab20ab77ec490103ad05aa83c925ac2452930018405fa0ab"
+  },
+  "payloadFiles": {
+    "Compress_en.bin": "59193b0ab3d0216f4dc5a0f4776056ed0f47d6729447384852aeac2ba18d4ae9",
+    "NewTextMap_en.json": "bfa634dc9c26884cf4596582174325f6399971ee1d2c43de57ab688ae8e85de0",
+    "xgui_font_94caf04d33b30d3bf95fff3d59018c81.uab": "07dc6014c11215cf5572ca39caf3e185cdbdd179ff35d6da3035f26b47a7571b",
+    "xgui_font_asset_0_7c59a01880d83ee3f861970de35c3ce3.uab": "f91359f87c15f20facffd2e3fc3a00dcf0cf728acf45226ddba96df8d035008e",
+    "xpt21_ar_resx_04a564c8_xgui_font_0_9b0f7d72fb917cb12ac86710360d45c8.uab": "16031b3edc6a673a330a64a5a9aaba14085cf6fc6976427bb0cb1bb4a322eab6",
+    "xpt21_mres_exall_0_56f2e8c16cb439a06833bfae669c0e6c.uab": "ea102cf9efbaa111033b571d971505da0034e6628b905e4be9b27b4e2834aebd",
+    "resources.assets.resS": "61706f64b126142052b9ac938c109770d6db84cb31373a41126f7b709eaaaf7a",
+    "xpt22_mres_exall_0_9fd11bcc7e5149929c8fc6622a551ae9.uab": "fa12a3a2a249507bfa4f08283eaa98f6936b12797ca37a06b62e74ba0a1a7df1"
+  },
+  "gameTestEvidence": "User confirmed translation 0.07 and Installer 1.4.1 working in ANIIMO build 3668494. Not exhaustive UI/text coverage."
+}
