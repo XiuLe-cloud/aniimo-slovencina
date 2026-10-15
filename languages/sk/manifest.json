@@ -1,11 +1,11 @@
 {
   "language": "sk",
-  "version": "0.09-test.1",
+  "version": "0.09-test.2",
   "build": "3732728",
   "records": 112365,
   "status": "community-test",
   "format": "id-to-translation",
-  "sha256": "94889b5020fdd6433c25feace472585f089f9ed8123ca0ad3bdc5e7c89ee241a",
+  "sha256": "2851b5f457c26bd1923f9c50056803a54f1e6bf7a7dd7b853b7dcf43682c11d2",
   "installWith": "ANIIMO-Localization-Installer-1.5.exe",
   "note": "Source translation export, not a directly importable update ZIP."
 }

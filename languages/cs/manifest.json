@@ -1,11 +1,11 @@
 {
   "language": "cs",
-  "version": "0.03-test.1",
+  "version": "0.03-test.2",
   "build": "3732728",
   "records": 112365,
   "status": "community-test",
   "format": "id-to-translation",
-  "sha256": "4ead73d8a64ec4081fa4a3342aae185d1a8fbd4fcdf48b29a102cb88d8bcc953",
+  "sha256": "414dea1046ec6e2f490185a39590223ec51cefa4ecac8b3b3c0eb4df0c66ff5d",
   "installWith": "ANIIMO-Localization-Installer-1.5.exe",
   "note": "Source translation export, not a directly importable update ZIP."
 }

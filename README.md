@@ -14,13 +14,15 @@ Na prvú inštaláciu stačí **jeden EXE**. Oba preklady sú pribalené; netreb
 | Súčasť | Verzia |
 |---|---|
 | Installer | 1.5 s podpísanými online a lokálnymi aktualizáciami |
-| Slovenčina | 0.09-test.1 |
-| Čeština | 0.03-test.1 |
+| Slovenčina | 0.09-test.2 (online aktualizácia) |
+| Čeština | 0.03-test.2 (online aktualizácia) |
 | Podporovaný build ANIIMO | **3732728** (číslo hry, nie Steam build ID) |
 | Záznamy každého jazyka | 112 365 jedinečných ID |
 | Stav vydania | Verejná komunitná testovacia verzia |
 
 **Oprava test.2:** Installer funguje aj po premenovaní EXE (napríklad prípona `(4)`). Pre opravu programu stiahni nový EXE; jazykové balíky a online kanály sa nemenia.
+
+**Nové jazykové opravy z 16.10.2026:** [CS 0.03-test.2 a SK 0.09-test.2](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/tag/translations-build-3732728-20261016). Nový EXE netreba. Pribalené jazyky v EXE zostávajú test.1; po ich inštalácii použi online aktualizáciu.
 
 ## Požiadavky a inštalácia
 
@@ -47,7 +49,7 @@ Cesta `C:\Users\…\AppData\Local\AniimoInstaller15\app` v hlásení je pracovn�
 
 Pre kompatibilný balík podporovaného buildu: **Aktualizácie a možnosti → Vybrať aktualizačný ZIP → Nainštalovať overenú aktualizáciu**. Program overí podpis, SHA-256, jazyk a build a pred zápisom zobrazí cieľ. ZIP nerozbaľuj do hry.
 
-Priložené CS a SK aktualizačné ZIPy sú voliteľné a obsahujú rovnaké preklady ako EXE. Installer ich vie stiahnuť z overených kanálov pre build 3732728; kontroluje digitálny podpis, SHA-256, jazyk a kompatibilitu. Na prechod zo zostavy pre 3714366 si **jednorazovo stiahni nový EXE**. Starý EXE sa sám neaktualizuje. Ďalšie kompatibilné jazykové opravy pre podporovaný build nevyžadujú nový EXE. Zmenu buildu hry treba znovu overiť. ZIP nerozbaľuj do hry.
+CS a SK aktualizačné ZIPy sú voliteľné. Najnovšie jazykové vydanie môže obsahovať novšie opravy než preklady pribalené v EXE. Installer ich vie stiahnuť z overených kanálov pre build 3732728; kontroluje digitálny podpis, SHA-256, jazyk a kompatibilitu. Na prechod zo zostavy pre 3714366 si **jednorazovo stiahni nový EXE**. Starý EXE sa sám neaktualizuje. Ďalšie kompatibilné jazykové opravy pre podporovaný build nevyžadujú nový EXE. Zmenu buildu hry treba znovu overiť. ZIP nerozbaľuj do hry.
 
 Starý `version.json` ostáva historickým kanálom Installeru 1.4.1. Nie je aktualizátorom tohto vydania. Staršie inštalátory sa samy nezmenia na 1.5.
 
