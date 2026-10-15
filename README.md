@@ -5,9 +5,9 @@ Projekt nie je oficiálnou lokalizáciou vývojárov ani vydavateľa a nevystupu
 
 ## Čo stiahnuť
 
-**[Stiahnuť Installer 1.5 – čeština aj slovenčina](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/installer-1.5-build-3732728-test.1/ANIIMO-Localization-Installer-1.5.exe)**
+**[Stiahnuť Installer 1.5 – čeština aj slovenčina](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/installer-1.5-build-3732728-test.2/ANIIMO-Localization-Installer-1.5.exe)**
 
-[Vydanie, voliteľný aktualizačný ZIP a SHA-256](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/tag/installer-1.5-build-3732728-test.1)
+[Vydanie, voliteľný aktualizačný ZIP a SHA-256](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/tag/installer-1.5-build-3732728-test.2)
 
 Na prvú inštaláciu stačí **jeden EXE**. Oba preklady sú pribalené; netreba samostatný jazykový ZIP, Python, prekladový model, Git, účet GitHub ani sťahovať „Source code“. Preklad je bezplatný.
 
@@ -19,6 +19,8 @@ Na prvú inštaláciu stačí **jeden EXE**. Oba preklady sú pribalené; netreb
 | Podporovaný build ANIIMO | **3732728** (číslo hry, nie Steam build ID) |
 | Záznamy každého jazyka | 112 365 jedinečných ID |
 | Stav vydania | Verejná komunitná testovacia verzia |
+
+**Oprava test.2:** Installer funguje aj po premenovaní EXE (napríklad prípona `(4)`). Pre opravu programu stiahni nový EXE; jazykové balíky a online kanály sa nemenia.
 
 ## Požiadavky a inštalácia
 

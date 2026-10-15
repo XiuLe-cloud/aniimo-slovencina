@@ -1,0 +1,57 @@
+--- a/Switch.ps1
++++ b/Switch.ps1
+@@ -2,7 +2,7 @@
+ 
+  [ValidateSet('sk','cs','en')][string]$Language='cs',[switch]$Online,[switch]$WriteApproved,[string]$UpdatePackage,[string]$UpdateSHA256,
+ 
+- [switch]$Fixture,[string]$FixtureFeed,[string]$FixturePackage,
++ [int]$InstallerProcessId=0,[switch]$Fixture,[string]$FixtureFeed,[string]$FixturePackage,
+ 
+  [ValidateSet('none','error-first','exit-first','exit-state')][string]$Fault='none')
+ 
+@@ -101,13 +101,24 @@
+ 
+ }
+ 
++function Get-InstallerHostId {
++ if($InstallerProcessId -eq 0){return 0}
++ $self=Get-CimInstance Win32_Process -Filter "ProcessId=$PID" -ErrorAction Stop
++ if(!$self -or [int]$self.ParentProcessId -ne $InstallerProcessId){throw 'Invalid installer parent process'}
++ return $InstallerProcessId
++}
++function Test-AniimoGameProcess($process,[int]$hostId) {
++ return ($process.Name -match '^Aniimo.*\.exe$' -and [int]$process.ProcessId -ne $hostId)
++}
++
+ function Check-Environment{
+ 
+  Check-Build
+ 
+  if($Fixture){if(Test-Path -LiteralPath (Join-Path $parent 'blocked-process.marker')){throw 'Fixture: Steam/game running'}}else{
+ 
+-  if(@(Get-CimInstance Win32_Process -ErrorAction Stop|Where-Object {($_.Name -match '^steam.*\.exe$') -or ($_.Name -match '^Aniimo.*\.exe$' -and $_.Name -ne 'ANIIMO-Localization-Installer-1.5.exe')}).Count){throw 'Najskôr ukonči ANIIMO aj Steam.'}
++  $hostId=Get-InstallerHostId
++  if(@(Get-CimInstance Win32_Process -ErrorAction Stop|Where-Object {($_.Name -match '^steam.*\.exe$') -or (Test-AniimoGameProcess $_ $hostId)}).Count){throw 'Najskôr ukonči ANIIMO aj Steam.'}
+ 
+   Check-SteamManifest
+ 
+@@ -240,7 +251,8 @@
+ 
+   $processes=@(Get-CimInstance Win32_Process -ErrorAction Stop)
+ 
+-  if(@($processes|Where-Object {$_.Name -match '^Aniimo.*\.exe$' -and $_.Name -ne 'ANIIMO-Localization-Installer-1.5.exe'}).Count){throw 'Najskôr ukonči ANIIMO. Steam sa nebude ukončovať počas hry.'}
++  $hostId=Get-InstallerHostId
++  if(@($processes|Where-Object {Test-AniimoGameProcess $_ $hostId}).Count){throw 'Najskôr ukonči ANIIMO. Steam sa nebude ukončovať počas hry.'}
+ 
+   $clients=@($processes|Where-Object {$_.Name -ieq 'steam.exe'})
+ 
+--- a/Installer15.cs
++++ b/Installer15.cs
+@@ -56,6 +56,7 @@
+    if(HashFile(Path.Combine(Home,name))!=(string)Files[name])throw new IOException("Installer runtime integrity check failed");
+   var ps=new ProcessStartInfo(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.System),"WindowsPowerShell","v1.0","powershell.exe"));
+   ps.Arguments="-NoProfile -NonInteractive -ExecutionPolicy Bypass -File "+Quote(Path.Combine(Home,"Switch.ps1"))+" -Action "+action+" -Language "+language;
++  ps.Arguments+=" -InstallerProcessId "+Process.GetCurrentProcess().Id;
+   if(ReadOnlyMode && (action=="install"||action=="recover"))throw new IOException("Read-only režim: zápis do hry je zakázaný.");
+   if(action!="detect")ps.Arguments+=" -Root "+Quote(Root);
+   if(Fixture!="")ps.Arguments+=" -Fixture";
