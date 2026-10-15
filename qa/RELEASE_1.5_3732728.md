@@ -29,6 +29,13 @@ CS 0.03-test.1; SK 0.09-test.1; 112 365 ID na jazyk.
 - PASS: Bad new selection clears previous approved update
 - PASS: No JavaScript errors
 
-Kontroly zahŕňajú podpisy a obsah balíkov, nie osobné herné testovanie nového buildu. Reálne HTTPS sťahovanie sa overuje po sprístupnení kanálov a výsledok bude doplnený. Úplná ručná revízia prekladov pokračuje.
+Kontroly zahŕňajú podpisy a obsah balíkov, nie osobné herné testovanie nového buildu. Reálne HTTPS sťahovanie oboch jazykov z GitHubu, podpis, inštalácia a následná obnova EN prešli ďalšími 6 kontrolami. Spolu 30 kontrol PASS. Úplná ručná revízia prekladov pokračuje.
 
 SHA-256 EXE: `f4cf8e0c9ffb3267fe8534cc818f93cb8a5c8d568b09684d93f96012abf14ba8`.
+
+- PASS: HTTPS sk channel check
+- PASS: HTTPS signed sk install
+- PASS: Restore English after HTTPS sk
+- PASS: HTTPS cs channel check
+- PASS: HTTPS signed cs install
+- PASS: Restore English after HTTPS cs
