@@ -1,64 +1,78 @@
-# ANIIMO – Slovenská lokalizácia 🇸🇰
+# ANIIMO CZ/SK od Xiu_Le
 
-Bezplatná neoficiálna komunitná lokalizácia ANIIMO od Xiu_Le.
+Bezplatný **neoficiálny komunitný preklad** ANIIMO do slovenčiny a češtiny.
+Projekt nie je oficiálnou lokalizáciou vývojárov ani vydavateľa a nevystupuje v ich mene. Názov ANIIMO, herný obsah a značky patria príslušným vlastníkom. Toto vyhlásenie nepredstavuje potvrdenie ich schválenia projektu ani otvorenú licenciu k herným assetom.
 
-**[Stiahnuť Installer 1.4.1 pre preklad 0.07](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/v0.07/Aniimo-Slovencina-Instalator-1.4.1-preklad-0.07.exe)** · [Release 0.07 a kontrolné súčty](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/tag/v0.07)
+## Čo stiahnuť
 
-| Údaj | Stav |
+**[Stiahnuť Installer 1.5 – čeština aj slovenčina](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/installer-1.5-build-3714366-test.1/ANIIMO-Localization-Installer-1.5.exe)**
+
+[Vydanie, voliteľný aktualizačný ZIP a SHA-256](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/tag/installer-1.5-build-3714366-test.1)
+
+Na prvú inštaláciu stačí **jeden EXE**. Oba preklady sú pribalené; netreba samostatný jazykový ZIP, Python, prekladový model, Git, účet GitHub ani sťahovať „Source code“. Preklad je bezplatný.
+
+| Súčasť | Verzia |
 |---|---|
-| Translation | **0.07** |
-| Installer | **1.4.1** |
-| Podporovaná zostava hry | **3668494** (označenie hry, nie Steam build ID) |
-| HIGH QA | **Dokončená** |
-| MEDIUM QA | **Dokončená** |
-| Technical QA | **PASS** |
-| In-game test | **PASS — potvrdené správcom projektu** |
-| LOW QA a NEEDS_CONTEXT | **Pokračujú** |
+| Installer | 1.5 s importom lokálnych aktualizácií |
+| Slovenčina | 0.08-test.1 |
+| Čeština | 0.02-test.4 |
+| Podporovaný build ANIIMO | **3714366** (číslo hry, nie Steam build ID) |
+| Záznamy každého jazyka | 112 327 jedinečných ID |
+| Stav vydania | Verejná komunitná testovacia verzia |
 
-## Pôvod a kvalita prekladu
+## Požiadavky a inštalácia
 
-Základ vznikol pomocou AI/strojového prekladu (MT). Následne prešiel systematickou jazykovou a kontextovou QA voči anglickému originálu, technickými kontrolami a testovaním v hre. Kontextovo nejasné prípady zostávajú odložené. Správca projektu potvrdil funkčnosť Installer 1.4.1 a prekladu 0.07 priamo v ANIIMO. Pri príprave a opravách sa naďalej používa AI a ľudské schvaľovanie návrhov. Nie je pravda, že celý preklad je 100 % manuálne skontrolovaný.
+Windows s Windows PowerShell 5.1, .NET Framework 4.x a Microsoft Edge; nainštalovaná podporovaná verzia ANIIMO cez Steam. Inštalátor používa Edge na zobrazenie rozhrania. Tieto komponenty sú bežne súčasťou Windows; neinštaluj ich z neznámych zdrojov.
 
-- **HIGH QA dokončená:** aplikovaných 4 386 schválených ID; odložené kontextové prípady zostávajú oddelené.
-- **MEDIUM QA dokončená:** aplikovaných 675 schválených skupín / 1 206 ID.
-- **Technická QA dokončená:** celý korpus 112 308 záznamov; samostatne opravené ID 2030994140.
-- **LOW a NEEDS_CONTEXT pokračujú.** Nejasné návrhy sa neaplikovali.
+1. Stiahni vyššie uvedený EXE z tohto vydania.
+2. Ukonči ANIIMO a Steam; inštalátor chráni súbory pred súbežnou aktualizáciou. Ponúka aj korektné ukončenie Steamu po potvrdení.
+3. Spusť EXE, vyber **Slovenčina** alebo **Čeština**.
+4. Skontroluj skutočný priečinok hry. Ak ho automaticky nenájde, vyber priečinok obsahujúci `Aniimo.exe`, napríklad v Steam knižnici na inom disku.
+5. Použi **Znova overiť** a potvrď inštaláciu pribaleného jazyka. Nepoužívaj tlačidlo online sťahovania: online kanály pre tento build nie sú aktivované.
+6. Po úspešnom dokončení spusti Steam a ANIIMO. V nastavení hry ponechaj **English**.
 
-Dokončenie QA fázy neznamená úplné otestovanie všetkých dialógov, obrazoviek, herných mechaník ani serverových textov. Podrobnosti a hranice overenia sú v [QA pre 0.07](qa/RELEASE_0.07.md).
+Installer obsahuje aktuálne oba jazyky a nevyžaduje vývojový priečinok autora. Lokálne zostaví jazykové Lua archívy z overených herných dát používateľa. Pri inom builde alebo neznámych súboroch inštaláciu odmietne; kontroly neobchádzaj.
 
-## Inštalácia a aktualizácie
+## Prepnutie jazyka a obnovenie angličtiny
 
-Súbory verzie 0.07 sú v [GitHub Release 0.07](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/tag/v0.07). Bežnému hráčovi stačí EXE; dátový ZIP sťahuje updater automaticky.
+V rovnakom programe vyber druhý jazyk a vykonaj inštaláciu pribaleného balíka. **Obnoviť angličtinu / Restore English** obnoví všetkých 12 sledovaných originálov vrátane fontov. Nejde o zálohu uložených pozícií ani celej hry.
 
-Použi Installer **1.4.1**, ktorý posilňuje ochranu cieľových ciest. Pri prechode z 0.06 na nový build si jednorazovo stiahni EXE 1.4.1. Pôvodný Installer 1.4 nový herný základ nepodporuje. Zálohy zachovaj; overené pôvodné assety zo zálohy build-3634150 installer bezpečne rozpozná.
+EN zálohy a stav transakcií sú v `%LOCALAPPDATA%\AniimoInstaller15\instances`. Nemaž ich. Pri hlásení **Pending transaction — recover first** použi **Obnoviť prerušenú transakciu**, potom **Znova overiť**. Pri nezhode buildu alebo chýbajúcej zálohe zastav a nahlás chybu; nemaž ručne `pending.json`.
 
-1. Ukonči hru a spusti installer.
-2. Vyber priečinok podporovanej hry; pri čistej inštalácii použi **Nainštalovať slovenčinu** alebo ponúknutý online balík.
-3. Pri aktualizácii klikni na **Skontrolovať znova** a potom na **Aktualizovať na …**. Samotná kontrola nič neinštaluje.
-4. V hre nechaj jazyk **English**.
+Cesta `C:\Users\…\AppData\Local\AniimoInstaller15\app` v hlásení je pracovná cache programu, nie cieľová cesta hry. Hra môže byť na D: alebo inom disku.
 
-Installer 1.4.1 a preklad majú nezávislé verzie. Ďalšie preklady 0.08, 0.09 atď. môže rovnaký installer sťahovať cez metadata bez nového EXE, pokiaľ zachovávajú dôveryhodný základ hry a povolené súbory. Nové funkcie, bezpečnostná logika alebo nový nekompatibilný základ hry môžu vyžadovať nový installer.
+## Budúce aktualizácie bez nového EXE
 
-Online zdroj je `https://raw.githubusercontent.com/XiuLe-cloud/aniimo-slovencina/main/version.json`. Feed určuje verziu prekladu, zostavu, URL a SHA-256 dátového ZIPu. Installer overuje tieto údaje aj manifest a hashe jednotlivých súborov. ZIP neobsahuje spúšťané aktualizačné skripty. Neprepisuj ručne súbory hry obsahom ZIPu.
+Pre kompatibilný balík podporovaného buildu: **Aktualizácie a možnosti → Vybrať aktualizačný ZIP → Nainštalovať overenú aktualizáciu**. Program overí podpis, SHA-256, jazyk a build a pred zápisom zobrazí cieľ. ZIP nerozbaľuj do hry.
 
-## Zálohy a bezpečnosť
+Priložený `ANIIMO-CS-0.02-test.4-build-3714366-UPDATE.zip` je voliteľný a obsahuje rovnakú češtinu ako EXE. Staré `PREPARED-DATA.zip`, zdrojové ZIPy GitHubu a balíky pre staré inštalátory nie sú týmto formátom. Pri zmene buildu treba nové overenie kompatibility; nesľubujeme podporu všetkých budúcich buildov rovnakým EXE.
 
-Pred prvou inštaláciou sa zachovajú overené anglické originály. Ďalšie aktualizácie ich neprepíšu slovenčinou. Pred aktualizáciou vzniká dočasná záloha súčasného stavu pre rollback. **Obnoviť angličtinu** vracia originály; nejde o zálohu uloženej hry.
+Starý `version.json` ostáva historickým kanálom Installeru 1.4.1. Nie je aktualizátorom tohto vydania. Staršie inštalátory sa samy nezmenia na 1.5.
 
-Installer odmieta presmerované cesty (junction/symlink/reparse point), nepovolený obsah ZIPu a nezhodné kontrolné súčty. Konzervatívne môže odmietnuť aj legitímny synchronizovaný alebo presmerovaný priečinok; nepovažuj ho za podporovanú inštalačnú cestu. Použi bežný lokálny priečinok. Zálohy nemaž. Pri prerušenej operácii zachovaj dáta a použi ponúknutú obnovu.
+## Kvalita a testovanie
 
-SHA-256 overuje neporušenosť, nie dôveryhodnosť autora ani neprítomnosť škodlivého kódu. EXE momentálne nie je digitálne podpísané a Windows môže zobraziť bezpečnostné upozornenie; nulové antivírusové detekcie sa negarantujú. Feed aj balíky musia zostať pod kontrolou správcu projektu.
+Základ prekladov vznikol pomocou AI/strojového prekladu, nasledujú priebežné opravy podľa EN originálu a herného kontextu. Úplná ľudská revízia všetkých textov nie je dokončená. Nejde o profesionálny ani oficiálny preklad; dabing sa nemení.
 
-## Kompatibilita
+- 15 integračných a 10 GUI kontrol finálnej zostavy PASS: inštalácia CS/SK, import, Restore English, rollback a odmietnutie poškodených balíkov.
+- Správca projektu osobne potvrdil obnovenie angličtiny a úspešnú inštaláciu slovenčiny. Následná kontrola overila všetkých 12 slovenských súborov a EN zálohy.
+- CS test.4 obsahuje 705 opráv oproti test.3, české úvodné upozornenie a podpis „Čeština od Xiu_Le“.
+- 20 nejasných českých názvov zostáva na posúdenie; úplná ručná kontrola starších popisov a grafiky v hre pokračuje. Technické testy nezaručujú bezchybný preklad každej obrazovky.
 
-Vydanie je zostavené nad overenými vstupnými súbormi zostavy **3668494**. Kompatibilita s inými alebo budúcimi zostavami nie je potvrdená. Aktuálnosť živej verzie hry sa z tohto čísla neodvodzuje. Zmena čísla zostavy vo feede sama osebe nestačí na bezpečnú podporu nových herných súborov.
+## Obsah a kontrolné súčty
+
+EXE nie je podpísané certifikátom Windows. SHA-256 nájdeš v `SHA256SUMS.txt`; napríklad `Get-FileHash .\ANIIMO-Localization-Installer-1.5.exe -Algorithm SHA256`.
+
+Úplný pôvodný `LuaScripts.xdf` nie je pribalený; jazykový archív vzniká lokálne. Balíky však obsahujú upravené fontové a úvodné herné assety vrátane `resources.assets.resS`, preto nejde o distribúciu výhradne vlastných textov. Práva k pôvodnému hernému obsahu zostávajú jeho vlastníkom.
+
+## Priečinky prekladov a vývoj
+
+- [`languages/cs`](languages/cs): české texty, manifest a poznámky.
+- [`languages/sk`](languages/sk): slovenské texty, manifest a poznámky.
+- [`docs/INSTALLER-1.5.md`](docs/INSTALLER-1.5.md): stručný návod a riešenie chýb.
+- [`qa/RELEASE_1.5_3714366.md`](qa/RELEASE_1.5_3714366.md): overenie aktuálneho vydania.
+
+Staršie zdroje v `installer/`, `package/` a pôvodné build skripty dokumentujú staršie vydania; nie sú návodom na zostavenie nového EXE 1.5. Autoritatívny binárny súbor tohto vydania je v Releases. Exporty JSON sa ručne do hry nekopírujú.
 
 ## Hlásenie chýb
 
-Použi [Discord Aniimo CZ/SK](https://discord.gg/ygN2cWJmRW), fórum [chyby-prekladu](https://discord.com/channels/1546824435770720256/1554686019599859742), prípadne [GitHub Issues](https://github.com/XiuLe-cloud/aniimo-slovencina/issues). Uveď verziu prekladu, game build, miesto výskytu a snímku bez osobných údajov; pomôže aj anglický originál a ID.
-
-## Zdroje a práva
-
-[SOURCE.md](SOURCE.md) opisuje zostavenie, [CHANGELOG.md](CHANGELOG.md) zmeny a [qa/](qa/) verejné výsledky kontrol. Pracovné zálohy, checkpointy a lokálne logy nie sú súčasťou verejného zdrojového balíka.
-
-Projekt nie je vydaný ani schválený vývojármi či vydavateľom ANIIMO. Preklad a installer sú pre hráčov bezplatné; hru si zabezpečuje hráč samostatne. Práva k hre, anglickým textom, značkám a grafike zostávajú ich vlastníkom. Zverejnenie zdrojov neudeľuje všeobecnú open-source licenciu; osobitná licencia vlastných nástrojov zatiaľ nebola zvolená.
+[GitHub Issues](https://github.com/XiuLe-cloud/aniimo-slovencina/issues) alebo [Discord Aniimo CZ/SK](https://discord.gg/ygN2cWJmRW). Uveď jazyk, verziu prekladu, build hry, obrazovku/úlohu a screenshot. Nezverejňuj osobné údaje, prihlasovacie údaje ani celé herné archívy.
