@@ -27,4 +27,12 @@ CS 0.04-test.1, SK 0.10-test.1; 112 418 ID každý.
 
 22 izolovaných integračných a EXE kontrol PASS. Navyše SHA-256 všetkých 8703 Lua položiek potvrdzuje zmenu iba dvoch lokalizačných súborov v každom jazyku. Prenos grafických úprav zachoval ostatné objekty nových assetov. Detekcia skutočnej Steam knižnice na D: overená read-only.
 
-HTTPS testy verejných kanálov doplníme po publikovaní balíkov. Nebol vykonaný vizuálny ani osobný herný test nových textov. Žiadny test nezapisoval do živej hry.
+
+- PASS: HTTPS sk channel check
+- PASS: HTTPS signed sk install
+- PASS: Restore English after HTTPS sk
+- PASS: HTTPS cs channel check
+- PASS: HTTPS signed cs install
+- PASS: Restore English after HTTPS cs
+
+Spolu 28 kontrol PASS, 0 FAIL. Verejné HTTPS kanály pre oba jazyky overené vrátane podpisov, inštalácie a následnej obnovy EN. Nebol vykonaný vizuálny ani osobný herný test nových textov. Žiadny test nezapisoval do živej hry.

@@ -57,7 +57,7 @@ Základ prekladov vznikol pomocou AI/strojového prekladu, nasledujú priebežn�
 
 - Nový build má 112 418 ID: 53 nových a 21 zmenených EN textov; všetky tieto zmeny boli spracované pre oba jazyky.
 - Existujúce opravy nezmenených textov zostali zachované. Staré korpusy a referencie zostávajú archivované.
-- Výsledky izolovaných kontrol sú v QA reporte. Osobné herné overenie správcom ešte neprebehlo; ide o komunitnú testovaciu verziu.
+- 28 kontrol PASS: 14 integračných, 8 samostatného EXE a 6 reálneho HTTPS stiahnutia/inštalácie/obnovy. Podrobnosti sú v QA reporte. Osobné herné overenie správcom ešte neprebehlo; ide o komunitnú testovaciu verziu.
 - Úplná ručná revízia všetkých starších textov pokračuje.
 
 ## Obsah a kontrolné súčty
