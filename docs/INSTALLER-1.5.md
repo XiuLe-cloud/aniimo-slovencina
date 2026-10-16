@@ -28,3 +28,8 @@ Pre kompatibilný balík podporovaného buildu: **Aktualizácie a možnosti → 
 Priložené CS a SK aktualizačné ZIPy sú voliteľné a obsahujú rovnaké preklady ako EXE. Installer ich vie stiahnuť z overených kanálov pre build 3732728; kontroluje digitálny podpis, SHA-256, jazyk a kompatibilitu. Na prechod zo zostavy pre 3714366 si **jednorazovo stiahni nový EXE**. Starý EXE sa sám neaktualizuje. Ďalšie kompatibilné jazykové opravy pre podporovaný build nevyžadujú nový EXE. Zmenu buildu hry treba znovu overiť. ZIP nerozbaľuj do hry.
 
 Starý `version.json` ostáva historickým kanálom Installeru 1.4.1. Nie je aktualizátorom tohto vydania. Staršie inštalátory sa samy nezmenia na 1.5.
+
+
+## Build 3743667
+Pre tento build stiahni nový EXE z aktuálneho vydania: https://github.com/XiuLe-cloud/aniimo-slovencina/releases/tag/installer-1.5-build-3743667-test.1
+Obsahuje CS 0.04-test.1 a SK 0.10-test.1. Staršie EXE nepodporujú nový build. Oba jazyky sú pribalené, ďalšie kompatibilné jazykové opravy možno stiahnuť online.

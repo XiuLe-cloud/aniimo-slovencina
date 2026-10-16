@@ -5,24 +5,22 @@ Projekt nie je oficiálnou lokalizáciou vývojárov ani vydavateľa a nevystupu
 
 ## Čo stiahnuť
 
-**[Stiahnuť Installer 1.5 – čeština aj slovenčina](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/installer-1.5-build-3732728-test.2/ANIIMO-Localization-Installer-1.5.exe)**
+**[Stiahnuť Installer 1.5 – čeština aj slovenčina](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/installer-1.5-build-3743667-test.1/ANIIMO-Localization-Installer-1.5.exe)**
 
-[Vydanie, voliteľný aktualizačný ZIP a SHA-256](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/tag/installer-1.5-build-3732728-test.2)
+[Vydanie, voliteľný aktualizačný ZIP a SHA-256](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/tag/installer-1.5-build-3743667-test.1)
 
 Na prvú inštaláciu stačí **jeden EXE**. Oba preklady sú pribalené; netreba samostatný jazykový ZIP, Python, prekladový model, Git, účet GitHub ani sťahovať „Source code“. Preklad je bezplatný.
 
 | Súčasť | Verzia |
 |---|---|
 | Installer | 1.5 s podpísanými online a lokálnymi aktualizáciami |
-| Slovenčina | 0.09-test.2 (online aktualizácia) |
-| Čeština | 0.03-test.2 (online aktualizácia) |
-| Podporovaný build ANIIMO | **3732728** (číslo hry, nie Steam build ID) |
-| Záznamy každého jazyka | 112 365 jedinečných ID |
+| Slovenčina | 0.10-test.1 (pribalená aj online) |
+| Čeština | 0.04-test.1 (pribalená aj online) |
+| Podporovaný build ANIIMO | **3743667** (číslo hry, nie Steam build ID) |
+| Záznamy každého jazyka | 112 418 jedinečných ID |
 | Stav vydania | Verejná komunitná testovacia verzia |
 
-**Oprava test.2:** Installer funguje aj po premenovaní EXE (napríklad prípona `(4)`). Pre opravu programu stiahni nový EXE; jazykové balíky a online kanály sa nemenia.
-
-**Nové jazykové opravy z 16.10.2026:** [CS 0.03-test.2 a SK 0.09-test.2](https://github.com/XiuLe-cloud/aniimo-slovencina/releases/tag/translations-build-3732728-20261016). Nový EXE netreba. Pribalené jazyky v EXE zostávajú test.1; po ich inštalácii použi online aktualizáciu.
+**Nový build 3743667:** stiahni nový EXE. Obsahuje aktuálnu češtinu aj slovenčinu a zachováva opravu spúšťania premenovaného EXE. Starší EXE pre 3732728 tento build nepodporuje.
 
 ## Požiadavky a inštalácia
 
@@ -49,7 +47,7 @@ Cesta `C:\Users\…\AppData\Local\AniimoInstaller15\app` v hlásení je pracovn�
 
 Pre kompatibilný balík podporovaného buildu: **Aktualizácie a možnosti → Vybrať aktualizačný ZIP → Nainštalovať overenú aktualizáciu**. Program overí podpis, SHA-256, jazyk a build a pred zápisom zobrazí cieľ. ZIP nerozbaľuj do hry.
 
-CS a SK aktualizačné ZIPy sú voliteľné. Najnovšie jazykové vydanie môže obsahovať novšie opravy než preklady pribalené v EXE. Installer ich vie stiahnuť z overených kanálov pre build 3732728; kontroluje digitálny podpis, SHA-256, jazyk a kompatibilitu. Na prechod zo zostavy pre 3714366 si **jednorazovo stiahni nový EXE**. Starý EXE sa sám neaktualizuje. Ďalšie kompatibilné jazykové opravy pre podporovaný build nevyžadujú nový EXE. Zmenu buildu hry treba znovu overiť. ZIP nerozbaľuj do hry.
+CS a SK aktualizačné ZIPy sú voliteľné. Najnovšie jazykové vydanie môže obsahovať novšie opravy než preklady pribalené v EXE. Installer ich vie stiahnuť z overených kanálov pre build 3743667; kontroluje digitálny podpis, SHA-256, jazyk a kompatibilitu. Na prechod zo staršieho buildu si **jednorazovo stiahni nový EXE**. Starý EXE sa sám neaktualizuje. Ďalšie kompatibilné jazykové opravy pre podporovaný build nevyžadujú nový EXE. Zmenu buildu hry treba znovu overiť. ZIP nerozbaľuj do hry.
 
 Starý `version.json` ostáva historickým kanálom Installeru 1.4.1. Nie je aktualizátorom tohto vydania. Staršie inštalátory sa samy nezmenia na 1.5.
 
@@ -57,9 +55,9 @@ Starý `version.json` ostáva historickým kanálom Installeru 1.4.1. Nie je akt
 
 Základ prekladov vznikol pomocou AI/strojového prekladu, nasledujú priebežné opravy podľa EN originálu a herného kontextu. Úplná ľudská revízia všetkých textov nie je dokončená. Nejde o profesionálny ani oficiálny preklad; dabing sa nemení.
 
-- Nový build má 112 365 ID: 38 nových a 178 zmenených EN textov; všetky tieto zmeny boli spracované pre oba jazyky.
+- Nový build má 112 418 ID: 53 nových a 21 zmenených EN textov; všetky tieto zmeny boli spracované pre oba jazyky.
 - Existujúce opravy nezmenených textov zostali zachované. Staré korpusy a referencie zostávajú archivované.
-- 30 technických kontrol PASS: 14 integračných, 10 GUI a 6 kontrol reálneho HTTPS stiahnutia/inštalácie/obnovy. Podrobnosti sú v QA reporte. Nové vydanie zatiaľ nemá osobné herné overenie správcom; ide o komunitnú testovaciu verziu.
+- Výsledky izolovaných kontrol sú v QA reporte. Osobné herné overenie správcom ešte neprebehlo; ide o komunitnú testovaciu verziu.
 - Úplná ručná revízia všetkých starších textov pokračuje.
 
 ## Obsah a kontrolné súčty
@@ -73,7 +71,7 @@ EXE nie je podpísané certifikátom Windows. SHA-256 nájdeš v `SHA256SUMS.txt
 - [`languages/cs`](languages/cs): české texty, manifest a poznámky.
 - [`languages/sk`](languages/sk): slovenské texty, manifest a poznámky.
 - [`docs/INSTALLER-1.5.md`](docs/INSTALLER-1.5.md): stručný návod a riešenie chýb.
-- [`qa/RELEASE_1.5_3732728.md`](qa/RELEASE_1.5_3732728.md): overenie aktuálneho vydania.
+- [`qa/RELEASE_1.5_3743667.md`](qa/RELEASE_1.5_3743667.md): overenie aktuálneho vydania.
 
 Staršie zdroje v `installer/`, `package/` a pôvodné build skripty dokumentujú staršie vydania; nie sú návodom na zostavenie nového EXE 1.5. Autoritatívny binárny súbor tohto vydania je v Releases. Exporty JSON sa ručne do hry nekopírujú.
 
