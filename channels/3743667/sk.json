@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "language": "sk",
+  "channel": "test",
+  "qa_complete": false,
+  "translation_version": "0.10-test.1",
+  "game_build": "3743667",
+  "sha256": "c8c474df51cac78402460e910143444f7d78bfe5424ca96c0382daef74b4292f",
+  "package_format": "aniimo-local-update-1",
+  "min_installer_version": "1.5",
+  "package_url": "https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/installer-1.5-build-3743667-test.1/ANIIMO-SK-0.10-test.1-build-3743667-UPDATE.zip"
+}
