@@ -3,10 +3,10 @@
   "language": "sk",
   "channel": "test",
   "qa_complete": false,
-  "translation_version": "0.10-test.2",
+  "translation_version": "0.10-test.3",
   "game_build": "3743667",
-  "sha256": "df44805b784aeb95cec9fafe5fcd73f3116a157ba5411a109ffe1862bf8f25d1",
+  "sha256": "4a3e9ae1f2fbf278547fbb31b55339b125472b16848d3f25587ee172108c1e6f",
   "package_format": "aniimo-local-update-1",
   "min_installer_version": "1.5",
-  "package_url": "https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/sk-0.10-test.2-build-3743667/ANIIMO-SK-0.10-test.2-build-3743667-UPDATE.zip"
+  "package_url": "https://github.com/XiuLe-cloud/aniimo-slovencina/releases/download/sk-0.10-test.3-build-3743667/ANIIMO-SK-0.10-test.3-build-3743667-UPDATE.zip"
 }
